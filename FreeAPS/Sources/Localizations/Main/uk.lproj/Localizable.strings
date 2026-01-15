@@ -16,6 +16,24 @@
 /* Continue after added carbs without bolus */
 "Continue without bolus" = "Продовжити без болюсу";
 
+/* History View */
+"No data." = "Немає даних.";
+
+/* Bolus View */
+"No Predictions. Failed loop suggestion." = "Немає прогнозів. Невдала пропозиція циклу.";
+
+/* Bolus View */
+"New Glucose Missing" = "Відсутня Нові показники Глюкози";
+
+/* Continue after added meal without bolus */
+"Save Meal without bolus" = "Зберегти Їжу без болюсу";
+
+/* Predictions and Meal summary part of the Bolus View. */
+"Status" = "Статус";
+
+/* Alert when adding large amount without bolusing */
+"\nAmount is more than your Max Bolus setting! \nAre you sure you want to add " = "\nКількість перевищує ваш максимальний болюс! \nВи впевнені, що хочете додати";
+
 /* Header */
 "Enact Bolus" = "Подати Болюс";
 
@@ -37,11 +55,44 @@
 /* Button */
 "Done" = "Готово";
 
+/* Bolus View footer */
+"Last loop %@ minutes ago. Complete or cancel this meal/bolus transaction to allow for next loop cycle to run" = "Останній цикл %@ хвилин тому. Завершіть або скасуйте цю транзакцію прийому їжі/болюсу, щоб запустити наступний цикл циклу";
+
+/* Calender Option */
+"Display Emojis as Labels" = "Відображати Emojis як Мітки";
+
+/* Calender Option */
+"Display IOB and COB" = "Відображення IOB і COB";
+
+/* Apple Watch App setting */
+"Confirm Bolus Faster" = "Підтвердити Швидкий Болюс";
+
+/* Setting Section */
+"UI/UX" = "UI/UX";
+
 /*  */
 "Wait please" = "Зачекайте";
 
 /*  */
 "Agree and continue" = "Прийняти та Продовжити";
+
+/* */
+"Log external insulin" = "Записувати зовнішній інсулін";
+
+/* Bolus progress view */
+"of" = "із";
+
+/* Remote Bolus Alert, Part 1 */
+"A Remote Bolus " = "Віддалений Болюс ";
+
+/* Remote Bolus Alert, Part 2 */
+"was delivered" = "було доставлено";
+
+/* Remote Bolus Alert, Part 3 */
+" minutes ago, triggered remotely from Nightscout, by a caregiver or a parent. Do you still want to bolus?\n\nPredicted eventual glucose, if you don't bolus, is: " = "хвилин тому, активовано дистанційно з Nightscout опікуном або батьком. Ви все ще хочете вводити болюс?\n\nПрогнозований кінцевий рівень глюкози, якщо ви не вводите болюс, становить:";
+
+/* Remote Bolus Alert, Title */
+"A Remote Bolus Was Just Delivered!" = "Дистанційний болюс щойно був доставлений!";
 
 /* Headline in enacted pop up (at: at what time) */
 "Enacted at" = "Виконано в";
@@ -50,7 +101,49 @@
 "Suggested at" = "Запропоновано на";
 
 /* Headline in enacted pop up (at: at what time) */
-"Error at" = "Помилка в";
+"Status at" = "Статус в";
+
+/* Bolus View Meal Summary Header */
+"Meal Summary" = "Резюме харчування";
+
+/* Bolus View Meal Edit Meal Button */
+"Edit Meal" = "Редагувати їжу";
+
+/* Bolus View Meal Add Meal Button */
+"Add Meal" = "Додати прийом їжі";
+
+/* Bolus View Bolus Summary Header */
+"Bolus Summary" = "Підсумок болюсу";
+
+/* For the  Bolus View pop-up */
+"Calculations" = "Розрахунки";
+
+/* For the  Bolus View pop-up */
+"Fatty Meal" = "Жирна їжа";
+
+/* Bolus option */
+"Hypo Treatment" = "Гіпотерапія";
+
+/* For the  Bolus View pop-up */
+"Full Bolus" = "Повний болюс";
+
+/* For the  Bolus View pop-up */
+"Fraction" = "Частка";
+
+/* For the  Bolus View pop-up */
+"Fatty Meal Factor" = "Фактор жирної їжі";
+
+/* Footer */
+"Carbs and previous insulin are included in the eventual glucose prediction." = "Вуглеводи та раніше введений інсулін враховуються при прогнозуванні рівня глюкози у крові.";
+
+/* For the  Bolus View pop-up */
+"Result" = "Результат";
+
+/* For the  Bolus View pop-up */
+"Your entered amount was limited by your max Bolus setting of %d%@" = "Введена вами сума була обмежена налаштуванням максимального болюсу %d%@";
+
+/* Bolus View Continue Button */
+"Continue" = "Продовжити";
 
 /* Home title */
 "Home" = "Головна";
@@ -73,6 +166,15 @@
 /* Add carbs header and button in Watch app. You can skip the last " " space. It's just for differentiation */
 "Add Carbs " = "Додати Вуглеводи ";
 
+/* Home View */
+"Override" = "Перевизначити";
+
+/* Home View Message if no pump is connected */
+"No Pump" = "Немає Помпи";
+
+/* Home View Message if open loop is active */
+"Open" = "Відкрита";
+
 /*  */
 "Amount Carbs" = "Кількість Вуглеводів";
 
@@ -82,8 +184,26 @@
 /*  */
 "Carbs required" = "Введіть кількість вуглеводів";
 
+/* Saved Food Presets */
+"Saved Food" = "Збережена їжа";
+
 /* */
 "Are you sure?" = "Ви впевнені?";
+
+/* */
+"Clear Records" = "Очистити записи";
+
+/* */
+"Delete CoreData database records" = "Видалити записи бази даних CoreData";
+
+/* */
+"Delete NS records" = "Видалити записи NS";
+
+/* */
+"All records in " = "Усі записи в";
+
+/* */
+" will be deleted!" = "буде видалено!";
 
 /* Bottom target temp */
 "Bottom target" = "Нижня ціль";
@@ -93,6 +213,9 @@
 
 /*  */
 "Cancel Temp Target" = "Відмінити Тимчасову ціль";
+
+/*  */
+"Cancel Temporary Target" = "Скасувати Тимчасову Ціль";
 
 /* Custom temp target */
 "Custom" = "Своя";
@@ -175,6 +298,9 @@
 /*  */
 "Autotune" = "Автотюн";
 
+/* Debug option view Dynamic Variables */
+"Dynamic Variables" = "Динамічні Змінні";
+
 /*  */
 "Basal profile" = "Базальний профіль";
 
@@ -209,10 +335,10 @@
 "Save on Pump" = "Зберегти на Помпі";
 
 /*  */
-"Saving..." = "Збереження...";
-
-/*  */
 "Schedule" = "Розклад";
+
+/* */
+"(standard units / hour)" = "(стандартні одиниці/годину)";
 
 /*  */
 "starts at" = "Починається з";
@@ -257,6 +383,9 @@
 Enact a temp Basal or a temp target */
 "Enact" = "Запустити";
 
+/* Start a temp target or a profile override */
+"Start" = "Почати";
+
 /* */
 "Manual Temp Basal" = "Ручна Тимчасова Базальна Швидкість (ТБШ)";
 
@@ -293,6 +422,9 @@ Enact a temp Basal or a temp target */
 /**/
 "Use local glucose server" = "Використовувати локальний сервер";
 
+/* Enable Statistics */
+"This enables uploading of statistics.json to Nightscout, which can be used by the Community Statistics and Demographics Project.\n\nParticipation in Community Statistics is opt-in, and requires separate registration at:\n" = "Це дає змогу завантажувати statistics.json у Nightscout, який може використовуватися Проектом статистики та демографії спільноти.\n\nУчасть у статистиці спільноти є обов’язковою та потребує окремої реєстрації за адресою:\n";
+
 /*  */
 "Edit settings json" = "Редагувати json налаштувань";
 
@@ -311,14 +443,62 @@ Enact a temp Basal or a temp target */
 /* Allow remote control from NS */
 "Remote control" = "Віддалене керування";
 
+/* Allow remote control from NS */
+"Allow Remote control of iAPS" = "Дозволити дистанційне керування iAPS";
+
+/* Imported Profiles Alert */
+"\nNow please verify all of your new settings thoroughly:\n\n* Basal Settings\n * Carb Ratios\n * Glucose Targets\n * Insulin Sensitivities\n * DIA\n\n in iAPS Settings > Configuration.\n\nBad or invalid profile settings could have disatrous effects." = "\nТепер уважно перевірте всі ваші нові налаштування:\n\n* Базальні параметри\n * Вуглеводні співвідношення\n * Цільові показники глюкози\n * Чутливість до інсуліну\n\n у меню «Налаштування iAPS» > «Конфігурація».\n\nПоганий або недійсний профіль налаштування можуть мати згубні наслідки.";
+
+/* Profile Import Alert */
+"This will replace some or all of your current pump settings. Are you sure you want to import profile settings from Nightscout?" = "Це замінить деякі або всі поточні налаштування Помпи. Ви впевнені, що бажаєте імпортувати налаштування профілю з Nightscout?";
+
+/* Import Error */
+"\nInvalid Nightcsout Basal Settings. \n\nImport aborted. Please check your Nightscout Profile Basal Settings!" = "\nНедійсні базальні налаштування Nightcsout. \n\nІмпорт перервано. Будь ласка, перевірте базальні налаштування свого профілю Nightscout!";
+
+/* Import Error */
+"\nSettings were imported but the Basals couldn't be saved to pump (No pump). Check your basal settings and tap ´Save on Pump´ to sync the new basal settings" = "\nНалаштування було імпортовано, але Базал не вдалося зберегти для помпи (немає помпи). Перевірте свої базальні налаштування та натисніть «Зберегти на помпі», щоб синхронізувати нові базальні налаштування";
+
+/* Import Error Headline */
+"Import Error" = "Помилка імпорту";
+
+/* */
+"Yes, Import" = "Так, імпортувати";
+
+/* */
+"Import settings from Nightscout" = "Імпортуйте налаштування з Nightscout";
+
+/* */
+"Import settings?" = "Імпортувати налаштування?";
+
+/* */
+"Import from Nightscout" = "ІМПОРТ З NIGHTSCOUT";
+
+/* */
+"Settings imported" = "Налаштування імпортовано";
+
+/* Import Error */
+"\nMismatching glucose units in Nightscout and Pump Settings. Import settings aborted." = "\nНевідповідність одиниць глюкози в налаштуваннях Nightscout та Помпи. Імпорт налаштувань скасовано.";
+
+/* Import Error */
+"Can't find the default Nightscout Profile." = "Не вдається знайти профіль Nightscout за замовчуванням.";
+
+/* Add Blood Glucose Test, header */
+"Blood Glucose Test" = "Тест на глюкозу у крові";
+
 /* Add Medtronic pump */
 "Add Medtronic" = "Додати Medtronic";
 
 /* Add Omnipod pump */
 "Add Omnipod" = "Додати Omnipod";
 
+/* Add Dana-i/RS pump */
+"Add Dana-i/RS" = "Додати Dana-i/RS";
+
 /* Add Simulator pump */
 "Add Simulator" = "Додати Симулятор";
+
+/* View/Header when pod expired */
+"Replace" = "Замінити";
 
 /* Insulin model */
 "Model" = "МОДЕЛЬ";
@@ -341,8 +521,57 @@ Enact a temp Basal or a temp target */
 /* Max setting */
 "Max Bolus" = "Максимальний Болюс";
 
+/* Insulin alert message */
+"Please verify that you have selected the correct insulin concentration before saving your settings.\n\nThe insulin vial or pen should indicate the concentration in units per milliliter (e.g., U100 indicates 100 units per milliliter, which is the standard concentration).\n\nAccurate selection is critical for proper dosing." = "Переконайтеся, що ви вибрали правильну концентрацію інсуліну, перш ніж зберігати налаштування.\n\nФлакон з інсуліном або шприц-ручка мають вказувати концентрацію в одиницях на мілілітр (наприклад, U100 означає 100 одиниць на мілілітр, що є стандартною концентрацією).\n \nТочний вибір має вирішальне значення для правильного дозування.";
+
+/* Insulin Concentration View */
+"Concentration" = "Концентрація";
+
+/* Insulin Concentration View */
+"Insulin Concentration" = "Концентрація Інсуліну";
+
+/* Insulin Concentration View */
+"Change Insulin" = "Змінити Інсулін";
+
+/* Insulin Concentration View */
+"Insulin diluted to" = "Інсулін, розведений до";
+
+/* Insulin Concentration View */
+"standard concentration:" = "стандартна концентрація:";
+
+/* Insulin Concentration View */
+"units per ml" = "одиниць на ml";
+
+/* Insulin Concentration View */
+"Standard concentration (U 100)" = "Стандартна концентрація (U 100)";
+
+/* Insulin Concentration View */
+"Insulin concentration increased to" = "Концентрація інсуліну підвищена до";
+
+/* Insulin Concentration View */
+"Couldn't save to pump. Try again when pump isn't busy bolusing." = "Не вдалося зберегти для закачування. Спробуйте ще раз, коли помпа не буде зайнята болюсом.";
+
+/* Insulin Concentration View */
+"Saved" = "Зберегти";
+
+/* Label inusulin concentration, units per ml */
+"U100" = "U100";
+
+/* Label inusulin concentration, units per ml */
+"U200" = "U200";
+
+/* Label inusulin concentration, units per ml */
+"U50" = "U50";
+
+/* Label inusulin concentration, units per ml */
+"U10" = "U10";
+/* Debug option, allow U50 and U10 (diluted insulin) */
+"Allow diluted insulin concentration settings" = "Дозволити налаштування концентрації розведеного інсуліну";
 /* Max setting */
 "Max Carbs" = "Максимум вуглеводів";
+
+/* Max carbs description */
+"Maximum amount of carbs (g) you can add each entry" = "Максимальна кількість вуглеводів (г), яку можна додати для кожного запису";
 
 /* */
 "Pump Settings" = "Налаштування Помпи";
@@ -414,10 +643,16 @@ Enact a temp Basal or a temp target */
 "Display on Watch" = "Відображати на Годиннику";
 
 /* */
+"Display either Overrides or Temp Targets" = "Відображати або Перевизначення, або Тимчасові Цілі";
+
+/* */
 "Garmin Watch" = "GARMIN WATCH";
 
 /* */
 "Add devices" = "Додати пристрій";
+
+/* */
+"Profile Overrides Button / Temp Targets Button" = "Кнопка Заміни Профілю / Кнопка Тимчасових Цілей";
 
 /* */
 "Glucose Target" = "Мета глюкози";
@@ -430,6 +665,9 @@ Enact a temp Basal or a temp target */
 
 /* */
 "ISF" = "ISF";
+
+/* */
+"% Override" = "% Перевизначити";
 
 /* */
 "The app Garmin Connect must be installed to use for iAPS.\n Go to App Store to download it" = "Щоб використовувати iAPS, необхідно встановити програму Garmin Connect.\n Перейдіть до App Store, щоб завантажити її";
@@ -495,13 +733,31 @@ Enact a temp Basal or a temp target */
 "Temp Targets" = "Тимчасові цілі";
 
 /* Delete carbs from data table and Nightscout */
-"Delete carbs?" = "Видалити вуглеводи?";
+"Delete Carbs?" = "Видалити вуглеводи?";
 
 /* Delete insulin from pump history and Nightscout */
-"Delete insulin?" = "Видалити інсулін?";
+"Delete Insulin?" = "Видалити інсулін?";
 
 /* Treatments list */
 "Treatments" = "Події";
+
+/* Add Insulin */
+"Add Insulin" = "Додайте Інсулін";
+
+/* Add Glucose */
+"Add Glucose" = "Додайте Глюкозу";
+
+/* New Glucose */
+"New Glucose" = "Нова Глюкоза";
+
+/* Hypo Treatment Preset */
+"Treatment" = "Лікування";
+
+/* Hypo Treatment Default Value */
+"Default  📉" = "За замовчуванням 📉";
+
+/* Hypo Treatment Default Value */
+"None" = "Жоден";
 
 /* " min" in Treatments list */
 " min" = " хв";
@@ -519,10 +775,16 @@ Enact a temp Basal or a temp target */
 "Calibrations" = "Калібрування";
 
 /* */
-"Create events in calendar" = "Створити подію в календарі";
+"Create Events in Calendar" = "Створення подій у календарі";
 
 /* */
 "Calendar" = "Календар";
+
+/* Automatic delivered treatments */
+"Automatic" = "Автоматично";
+
+/* External insulin treatments */
+"External" = "Зовнішній";
 
 /* */
 "Other" = "Інше";
@@ -720,7 +982,10 @@ Enact a temp Basal or a temp target */
 "Sensor Info" = "Інформація про Сенсор";
 
 /* */
-"Sensor Age" = "Вік Сенсору";
+"Sensor Life-Span" = "Термін служби Сенсору";
+
+/* */
+"When using %@ iAPS doesn't know the type of sensor used or the sensor life-span." = "Під час використання %@ iAPS не знає тип використовуваного Сенсору або його термін служби.";
 
 /* */
 "Sensor Age Left" = "Залишилось";
@@ -768,7 +1033,7 @@ Enact a temp Basal or a temp target */
 "Delete CGM" = "Видалити CGM";
 
 /* */
-"Are you sure you want to remove this cgm from loop?" = "Ви дійсно бажаєте видалити цей CGM?";
+"Are you sure you want to remove this cgm from iAPS?" = "Ви впевнені, що хочете видалити цей cgm з iAPS?";
 
 /* */
 "There is no undo" = "Цю дію неможливо відмінити!";
@@ -839,8 +1104,96 @@ Enact a temp Basal or a temp target */
 /* */
 "High" = "Високий";
 
+/* TIR Chart */
+"Very High" = "Дуже Високий";
+
+/* TIR Chart */
+"Very Low" = "Дуже низький";
+
 /* */
 "glucose" = "Глюкоза";
+
+/* Bolus shortcut */
+"Enter a Bolus Amount" = "Введіть кількість болюсу";
+
+/* Bolus shortcut */
+"Your current glucose is %@. Are you sure you want to bolus %@ U of insulin?" = "Ваш поточний рівень глюкози %@. Ви впевнені, що хочете ввести %@ U інсуліну?";
+
+/* Bolus shortcut */
+"A bolus command of " = "Болюсна команда";
+
+/* Bolus shortcut */
+" U of insulin was sent to iAPS. Verify in iAPS app or in Nightscout if the bolus was delivered." = "U інсуліну відправлено в iAPS. Перевірте в додатку iAPS або в Nightscout, чи було введено болюс.";
+
+/* Bolus shortcut. Error */
+"too small bolus amount" = "занадто мала кількість болюсу";
+
+/* Bolus shortcut. Error */
+"Bolus Shortcuts are disabled in iAPS settings" = "Ярлик Болюсу вимкнено в налаштуваннях iAPS";
+
+/* Bolus shortcut */
+"Bolus Amount in U" = "Кількість Болюсу в U";
+
+/* Bolus shortcut. Setting */
+"Allow iOS Bolus Shortcuts" = "Дозволити ярлик Болюсу iOS";
+
+/* Bolus shortcut setting. Header */
+"iOS Shortcuts" = "Ярлики iOS";
+
+/* Bolus shortcut. Pop-up */
+"If you enable this setting you will be able to use iOS shortcuts and its automations to trigger a bolus in iAPS.\n\nObserve that the iOS shortuts also works with Siri!\n\nIf you need to use Bolus Shorcuts, please make sure to turn off the listen for 'Hey Siri' setting in iPhone Siri settings, to avoid any inadvertant activaton of a bolus with Siri.\nIf you don't disable 'Hey Siri' the iAPS bolus shortcut can be triggered with the utterance 'Hey Siri, iAPS Bolus'.\n\nWhen triggered with Siri you will be asked for an amount and a confirmation before the bolus command can be sent to iAPS." = "Якщо ви ввімкнете це налаштування, ви зможете використовувати ярлики iOS та їх автоматичні засоби для запуску болюсу в iAPS.\n\nЗверніть увагу, що ярлики iOS також працюють із Siri!\n\nЯкщо вам потрібно використовувати ярлики болюсу, переконайтеся, що щоб вимкнути прослуховування параметра «Привіт, Сірі» в налаштуваннях iPhone Siri, щоб уникнути будь-якої випадкової активації болюсу за допомогою Siri.\nЯкщо ви не вимкнете «Привіт, Сірі», ярлик болюсу iAPS можна запустити за допомогою виголошення «Привіт». Siri, iAPS Bolus'.\n\nПісля запуску за допомогою Siri вам буде запропоновано ввести суму та підтвердження, перш ніж команду болюсу можна буде надіслати в iAPS.";
+
+/* Bolus shortcut. Setting */
+"Max allowed bolus amount using shortcuts " = "Максимальна дозволена кількість болюсу за допомогою ярликів";
+
+/* Bolus shortcut. Error */
+"not available" = "недоступний";
+
+/* Override Shortcut */
+"Activate an Override Preset" = "Активуйте попередні налаштування Профілю";
+
+/* Override Shortcut */
+"Allow to activate an overrride preset." = "Дозволити активувати попередні налаштування Профілю.";
+
+/* Override Shortcut */
+"Which override preset would you like to activate?" = "Який попередній Профіль ви б хотіли активувати?";
+
+/* Override Shortcut */
+"Are you sure you want to activate the Override Preset %@?" = "Ви впевнені, що бажаєте активувати попередні налаштування %@?";
+
+/* Override Shortcut */
+"The Profile Override" = "Перевизначення Профілю";
+
+/* Override Shortcut */
+"is now activated" = "зараз активовано";
+
+/* Override Shortcut */
+"Cancel active override" = "Скасувати заміну Профілю";
+
+/* Override Shortcut */
+"Override canceled" = "Перевизначення скасовано";
+
+/* Override Shortcut */
+"Activates an %@ Override Preset" = "Активує попередні налаштування %@";
+
+/* Suspend/Resume Shortcut */
+"Choose what to do with your pump" = "Виберіть, що робити з вашою помпою";
+
+/* Suspend/Resume Shortcut */
+"Are you sure you want to %@ your pump?" = "Ви впевнені, що хочете %@ свою помпу?";
+
+/* Suspend/Resume Shortcut */
+"Pump command" = "Команда помпи";
+/* Suspend/Resume Shortcut */
+"enacted in iAPS" = "прийняті в iAPS";
+
+/* Temp Basal Shortcut */
+"Temp basal Amount in U/h" = "Temp basal Amount in U/h";
+
+/* */
+"Cancel Temp" = "Скасувати тимчасове обмеження";
+
+
 
 /* */
 "Schedule " = "Розклад ";
@@ -868,6 +1221,12 @@ Enact a temp Basal or a temp target */
 
 /* */
 "No Glucose Alarm active" = "Немає активних сигналів Глюкози";
+
+/* */
+"Ascending Glucose Alarm active" = "Сигналізація підвищення рівня Глюкози активна";
+
+/* */
+"Descending Glucose Alarm active" = "Сигналізація зниження рівня Глюкози активна";
 
 /* */
 "snoozing until %@" = "відкладено до %@";
@@ -909,7 +1268,7 @@ Enact a temp Basal or a temp target */
 "Backfill options" = "Параметри фонового заповнення";
 
 /* */
-"Backfilling from trend is currently not well supported by Loop" = "Завантаження трендів в даний час не  підтримується в Петлі";
+"Backfilling from trend is currently not well supported by iAPS" = "Завантаження трендів в даний час не  підтримується в  iAPS";
 
 /* */
 "Backfill from history" = "Резервне копіювання з історії";
@@ -936,6 +1295,57 @@ Enact a temp Basal or a temp target */
 "Carbs Required Threshold" = "Межа необхідних вуглеводів";
 
 /* */
+"Carbs Required" = "Необхідні вуглеводи";
+
+/* */
+"Sounds" = "Звуки";
+
+/* Sound for Hypo alert */
+"Hypoglycemia" = "Гіпоглікемія";
+
+/* Sound for Hyper alert */
+"Hyperglycemia" = "Гіперглікемія";
+
+/* Sound for ascending glucose */
+"Rapidly Ascending" = "Швидко Зростає";
+
+/* Sound for descending glucose */
+"Rapidly Descending" = "Швидкий Спад";
+
+/* Silent sound option */
+"Silent" = "Без звуку";
+
+/* Option for no sound */
+"Silent" = "Без звуку";
+
+/* Option for default notification sound */
+"Default" = "Стандартний";
+
+/* The iOS default sound */
+"iOS default sound" = "Звук за замовчуванням для iOS";
+
+/* Alert for descending glucose */
+"RAPIDLY DESCENDING GLUCOSE!" = "ШВИДКЕ ЗНИЖЕННЯ РІВНЯ ГЛЮКОЗИ!";
+
+/* Alert for ascending glucose */
+"RAPIDLY ASCENDING GLUCOSE!" = "ШВИДКО ПІДВИЩУЄТЬСЯ РІВЕНЬ ГЛЮКОЗИ!";
+
+/* Sound for bolus failure */
+"Bolus Failure" = "Невдача введення Болюсу";
+
+/* Sound for missing loops */
+"Missing Loops" = "Відсутні Цикли";
+
+/* Alert for ascending glucose */
+"Ascending" = "Зростаючий";
+
+/* Alert for descending glucose */
+"Descending" = "Спадання";
+
+/* Thresholds for Alerts */
+"Thresholds" = "Межі";
+
+/* */
 "Carbs required: %d g" = "Потрібні вуглеводи: %d g";
 
 /* */
@@ -945,7 +1355,7 @@ Enact a temp Basal or a temp target */
 "iAPS not active" = "iAPS не активний";
 
 /* */
-"Last loop was more then %d min ago" = "Останній цикл був більше, ніж %d хв тому";
+"Last loop was more than %d min ago" = "Останній цикл був більше, ніж %d хв тому";
 
 /* Glucose badge */
 "Show glucose on the app badge" = "Показувати глюкозу на значку додатку";
@@ -959,6 +1369,9 @@ Enact a temp Basal or a temp target */
 /* */
 "Bolus failed" = "Болюс не вдався";
 
+/* "Max Bolus Exceeded label" */
+"Max Bolus exceeded!" = "Максимальний болюс перевищено!";
+
 /* */
 "Bolus failed or inaccurate. Check pump history before repeating." = "Болюс не пройшов або неточний. Перевір історію помпи, перш ніж повторити.";
 
@@ -968,7 +1381,358 @@ Enact a temp Basal or a temp target */
 /* Food Type / Meal Note */
 "Note" = "Примітка";
 
+"Servings" = "Порції";
+
+"Kilo Calories" = "Кіло Калорія";
+
+"Meals" = "Страви";
+
+"Today's Meals" = "Сьогоднішні Страви";
+
+// --------- AI ---------
 /* */
+
+"AI Image Analysis" = "AI Image Analysis";
+
+"Barcode" = "Barcode";
+
+"📝 Notes" = "📝 Примітка";
+
+/* */
+"💉 Diabetes recommendations" = "💉 Рекомендації щодо діабету";
+
+/* */
+"🍽️ Separate Foods" = "🍽️ Роздільне харчування";
+
+/* */
+"Add all" = "Додати усі";
+
+/* */
+"🧠 AI Food analysis" = "🧠 Аналіз продуктів харчування за допомогою штучного інтелекту";
+
+/* */
+"📊 Total nutritional values of the meal" = "📊 Загальна харчова цінність страви";
+
+/* */
+"Confidence level:" = "Рівень впевненості:";
+
+/* */
+"Notes: %@" = "Примітки: %@";
+
+/* */
+"Visual Cues: %@" = "Візуальні підказки: %@";
+
+/* */
+"Preparation: %@" = "Підготовка: %@";
+
+/* */
+"Preparation" = "Підготовка";
+
+/* */
+"Multiplicator" = "Множник";
+
+/* */
+"Accept quantity" = "Прийняти кількість";
+
+/* */
+"Enter desired quantity" = "Введіть бажану кількість";
+
+/* */
+"AI Food Search" = "Пошук їжі зі штучним інтелектом";
+
+/* Title */
+"Food Search" = "Пошук їжі";
+
+/* Food Search input */
+"Food Search..." = "Пошук їжі...";
+
+/* */
+"Search Food Database" = "Пошук у базі даних продуктів харчування";
+
+"Models Used:" = "Використані моделі:";
+
+"Current Mode: %@" = "Поточний режим: %@";
+
+"Analysis Mode" = "Режим аналізу";
+
+"This AI provider requires an API key. Please enter your API key in the settings below." = "Цей постачальник штучного інтелекту вимагає ключ API. Будь ласка, введіть свій ключ API у налаштуваннях нижче.";
+"API Key Required" = "Потрібен ключ API";
+
+"Food Search Settings" = "Налаштування пошуку їжі";
+
+"AI nutritional estimates are approximations only. Always consult with your healthcare provider for medical decisions. Verify nutritional information whenever possible. Use at your own risk." = "Оцінки харчової цінності, отримані за допомогою штучного інтелекту, є лише приблизними. Завжди консультуйтеся зі своїм лікарем щодо прийняття медичних рішень. Перевіряйте інформацію про харчову цінність, коли це можливо. Використовуйте на свій страх і ризик.";
+
+"Medical Disclaimer" = "Медична відмова від відповідальності";
+
+"Google (Gemini API) → OpenAI (ChatGPT API) → Anthropic (Claude API)" = "Google (Gemini API) → OpenAI (ChatGPT API) → Anthropic (Claude API)";
+
+"**AI Image Analysis:**" = "**Аналіз зображень за допомогою штучного інтелекту**:";
+
+"OpenFoodFacts" = "OpenFoodFacts (Відкриті факти про їжу)";
+
+"**Barcode Scanning:**" = "**Сканування штрих-кодів:**";
+
+"USDA FoodData Central → OpenFoodFacts" = "Центр даних про харчові продукти Міністерства сільського господарства США → Відкриті факти про харчові продукти";
+
+"**Text/Voice Search:**" = "**Текстовий/голосовий пошук:**";
+"Search Type Recommendations" = "Рекомендації щодо типу пошуку";
+
+"• **USDA FoodData Central**: Free, official nutrition database. Superior nutrition data for non-packaged foods like fruits, vegetables, and meat." = "• **USDA FoodData Central**: Безкоштовна офіційна база даних про харчування. Чудові дані про харчування нефасованих продуктів, таких як фрукти, овочі та м’ясо.";
+
+"• **OpenFoodFacts**: Free, open database with extensive barcode coverage and text search for packaged foods. Default for text and barcode searches." = "• **OpenFoodFacts**: Безкоштовна, відкрита база даних із широким охопленням штрих-кодів та текстовим пошуком для упакованих продуктів. За замовчуванням для пошуку тексту та штрих-кодів.";
+
+"• **OpenAI (ChatGPT API)**: Most accurate AI analysis using GPT-4 Vision. Requires API key (~$0.01 per image). Excellent at image analysis and natural language queries." = "• **OpenAI (ChatGPT API)**: Найточніший аналіз за допомогою ШІ з використанням GPT-4 Vision. Потрібен ключ API (~$0.01 за зображення). Відмінно підходить для аналізу зображень та запитів природною мовою.";
+
+"• **Google (Gemini API)**: Free AI with generous limits (1500/day). Excellent food recognition using Google's Vision AI. Perfect balance of quality and cost." = "• **Google (Gemini API)**: Безкоштовний штучний інтелект зі щедрими лімітами (1500/день). Відмінне розпізнавання їжі за допомогою штучного інтелекту Vision від Google. Ідеальний баланс якості та вартості.";
+
+"• **Anthropic (Claude API)**: Advanced AI with detailed reasoning. Excellent at food analysis and portion estimation. Requires API key (~$0.25 per million tokens)." = "• **Anthropic (Claude API)**: Розширений ШІ з детальним мисленням. Відмінно аналізує їжу та оцінює порції. Потрібен ключ API (~$0,25 за мільйон токенів).";
+
+"Available Search Providers:" = "Доступні пошукові системи:";
+
+"Provider Information" = "Інформація про постачальника";
+
+"❌ If you select 'OpenFoodFacts' or 'USDA', camera analysis will use basic estimation instead of AI" = "❌ Якщо ви оберете «OpenFoodFacts» або «USDA», аналіз камери використовуватиме базову оцінку замість штучного інтелекту";
+
+"✅ Select 'Anthropic (Claude API)', 'Google (Gemini API)', or 'OpenAI (ChatGPT API)' for AI Image Analysis to use your paid keys" = "✅ Виберіть «Anthropic (Claude API)», «Google (Gemini API)» або «OpenAI (ChatGPT API)» для аналізу зображень за допомогою штучного інтелекту, щоб використовувати ваші платні ключі";
+
+"When you take a photo of food, the app uses the provider selected in 'AI Image Analysis' above." = "Коли ви фотографуєте їжу, додаток використовує постачальника, вибраного в розділі «Аналіз зображень зі штучним інтелектом» вище.";
+
+"Camera Food Analysis" = "Аналіз харчових продуктів камерою";
+
+"To use your paid API keys, make sure to select the corresponding provider in 'AI Image Analysis' above. The provider you select for AI Image Analysis is what will be used when you take photos of food." = "Щоб використовувати платні ключі API, переконайтеся, що ви вибрали відповідного постачальника в розділі «Аналіз зображень зі штучним інтелектом» вище. Постачальник, якого ви оберете для аналізу зображень зі штучним інтелектом, буде використовуватися під час фотографування їжі.";
+
+"Important: How to Use Your API Keys" = "Важливо: Як використовувати ключі API";
+
+"Break down this meal into individual components with complete macronutrient profiles (carbs, protein, fat, calories) per item and combined totals." = "Розбийте цю страву на окремі компоненти з повними профілями макронутрієнтів (вуглеводи, білки, жири, калорії) для кожного елемента та їх загальною кількістю";
+
+"Identify all food items in this image with focus on carbohydrate content for diabetes management. Provide detailed carb counts for each component and total meal carbohydrates." = "Визначте всі продукти харчування на цьому зображенні, зосереджуючись на вмісті вуглеводів для контролю діабету. Надайте детальну кількість вуглеводів для кожного компонента та загальну кількість вуглеводів у страві.";
+
+"Diabetes Focus" = "Фокус на Діабет";
+
+"Provide extremely detailed visual analysis of this food image. Describe every element you can see: food colors, textures, cooking methods (grilled marks, browning, steaming), plate type and size, utensils present, garnishes, sauces, cooking oils visible, food arrangement, and background elements. Use these visual details to estimate precise portion sizes and calculate accurate nutrition values for diabetes management." = "Надайте надзвичайно детальний візуальний аналіз цього зображення їжі. Опишіть кожен елемент, який ви бачите: кольори їжі, текстури, способи приготування (сліди гриля, підрум'янення, приготування на пару), тип і розмір тарілки, наявний посуд, гарніри, соуси, видимі кулінарні олії, розташування їжі та елементи фону. Використовуйте ці візуальні деталі, щоб оцінити точний розмір порцій та розрахувати точну харчову цінність для контролю діабету.";
+
+"Analyze this food image for diabetes management. Describe exactly what you see in detail: colors, textures, cooking methods, plate type, utensils, and food arrangement. Identify each food item with specific preparation details, estimate precise portion sizes using visual references, and provide carbohydrates, protein, fat, and calories for each component. Focus on accurate carbohydrate estimation for insulin dosing." = "Проаналізуйте це зображення їжі для контролю діабету. Точно опишіть те, що ви бачите, детально: кольори, текстури, способи приготування, тип тарілки, посуд та розташування їжі. Визначте кожен продукт харчування з конкретними деталями приготування, оцініть точний розмір порцій за допомогою візуальних орієнтирів та вкажіть вуглеводи, білки, жири та калорії для кожного компонента. Зосередьтеся на точній оцінці вуглеводів для дозування інсуліну.";
+
+"AI Prompt for Enhanced Results" = "Підказки ШІ для Покращених Результатів";
+
+"Enter your OpenAI API key" = "Введіть свій ключ API OpenAI";
+
+"ChatGPT (OpenAI) API Key" = "ChatGPT (OpenAI) API Key";
+
+"Get an API key from platform.openai.com. Customize the analysis prompt to get specific meal component breakdowns and nutrition totals. (~$0.01 per image)" = "Отримайте ключ API з platform.openai.com. Налаштуйте запит на аналіз, щоб отримати розподіл компонентів страв та загальну харчову цінність. (~$0.01 за зображення)";
+
+"OpenAI (ChatGPT API) Configuration" = "Конфігурація OpenAI (ChatGPT API)";
+
+"Macro Tracking" = "Відстеження Макросів";
+
+"Identify all food items in this image with focus on carbohydrate content for diabetes management. Provide detailed carb counts for each component and total meal carbohydrates." = "Визначте всі продукти харчування на цьому зображенні, зосереджуючись на вмісті вуглеводів для контролю діабету. Надайте детальну кількість вуглеводів для кожного компонента та загальну кількість вуглеводів у страві.";
+
+"Detailed Visual Analysis" = "Детальний Візуальний Аналіз";
+
+"Enter your Google Gemini API key" = "Введіть свій ключ API Google Gemini";
+
+"Google Gemini API Key" = "Ключ API Google Gemini";
+
+"Get a free API key from ai.google.dev. Google Gemini provides excellent food recognition with generous free tier (1500 requests per day)." = "Отримайте безкоштовний ключ API від ai.google.dev. Google Gemini забезпечує чудове розпізнавання їжі завдяки щедрому безкоштовному плану (1500 запитів на день).";
+
+"Google (Gemini API) Configuration" = "Конфігурація Google (Gemini API)";
+
+"Your AI provider quota has been exceeded. Please check your usage limits or try a different provider." = "Квоту вашого постачальника штучного інтелекту перевищено. Перевірте ліміти використання або спробуйте скористатися послугами іншого постачальника.";
+
+"Your AI provider has run out of credits. Please check your account billing or try a different provider." = "Ваш постачальник послуг штучного інтелекту вичерпав свої кредити. Перевірте рахунки свого облікового запису або спробуйте скористатися послугами іншого постачальника.";
+
+"Reset to Default" = "Скинути до Заводських Налаштувань";
+
+"Retake Photo" = "Перезняти фото";
+
+"Retry Analysis" = "Аналіз Повторних спроб";
+
+"Try Different Provider" = "Спробуйте Іншого Постачальника";
+
+"Check Account" = "Перевірте Рахунок";
+
+"Analysis Error" = "Помилка Аналізу";
+
+"AI Food Analysis" = "Аналіз Харчових Продуктів зі ШІ";
+
+"Use Cancel to retake photo" = "Натисніть кнопку «Скасувати», щоб повторно зробити фото";
+
+"Analyzing food with AI..." = "Аналіз їжі за допомогою ШІ...";
+
+"Choose from Library" = "Виберіть з Бібліотеки";
+
+"Take a Photo" = "Зробіть Фотографію";
+
+"Keep the camera level to reduce distortion and keep portions proportional." = "Тримайте камеру рівно, щоб зменшити спотворення та зберегти пропорції фрагментів.";
+
+"Shoot from slightly above" = "Тримайте трохи зверху";
+
+"Forks, cups, or hands help AI calculate realistic portions." = "Виделки, чашки або руки допомагають штучному інтелекту розраховувати реалістичні порції.";
+
+"Add a size reference" = "Додати посилання на розмір";
+
+"Make sure every food item is in the frame." = "Переконайтеся, що кожен продукт харчування знаходиться в кадрі.";
+
+"Frame the full meal" = "Створіть повну страву в рамці";
+
+"Remove napkins, lids, or packaging that may be misidentified as food." = "Зніміть серветки, кришки або упаковку, які можна помилково ідентифікувати як харчові продукти.";
+
+"Clear the area" = "Очистіть простір";
+
+"Harsh shadows confuse the AI and dim light can hide textures." = "Різкі тіні заплутують ШІ, а тьмяне світло може приховувати текстури.";
+
+"Use bright, even light" = "Використовуйте яскраве, рівномірне світло";
+
+"Better photos = better estimates" = "Кращі фотографії = кращі оцінки";
+
+"Scan failed" = "Помилка сканування";
+
+"Looking up product..." = "Пошук товару...";
+
+"Code detected!" = "Виявлено Код!";
+
+"Position camera over barcode or QR code" = "Розмістіть камеру над штрих-кодом або QR-кодом";
+
+"Validating format..." = "Перевірка формату...";
+
+"Scanning for barcode or QR code..." = "Сканування штрих-коду або QR-коду...";
+
+"Initializing camera..." = "Ініціалізація камери...";
+
+"Scan failed" = "Помилка сканування";
+
+"iAPS needs camera access to scan barcodes. Please enable camera access in Settings." = "iAPS потрібен доступ до камери для сканування штрих-кодів. Будь ласка, увімкніть доступ до камери в налаштуваннях.";
+
+"Camera Access Required" = "Потрібен Доступ до Камери";
+
+"Check Permissions" = "Перевірити Дозволи";
+
+"Supports traditional barcodes and QR codes" = "Підтримує традиційні штрих-коди та QR-коди";
+
+"Hold steady for best results" = "Тримайте рівно для найкращих результатів";
+
+"Retry" = "Спробувати знову";
+
+"Scan Barcode" = "Сканування штрих-коду";
+
+"📦 Database Results" = "📦 Результати бази даних";
+
+"🤖 AI Search Results" = "🤖 Результати пошуку за допомогою штучного інтелекту";
+
+"• Use the barcode scanner for packaged foods" = "• Використовуйте сканер штрих-кодів для упакованих продуктів";
+
+"• Check spelling carefully" = "• Уважно перевіряйте орфографію";
+
+"• Use simple, common food names" = "• Використовуйте прості, поширені назви продуктів харчування";
+
+"• Try brand names (e.g., \"Cheerios\")" = "• Спробуйте назви брендів (наприклад, «Cheerios»)";
+
+"💡 Search Tips:" = "💡 Поради щодо пошуку:";
+
+"Try simpler terms like \"bread\" or \"apple\", or scan a barcode" = "Спробуйте простіші терміни, такі як «хліб» або «яблуко», або проскануйте штрих-код";
+
+"Check your spelling and try again" = "Перевірте орфографію та спробуйте ще раз";
+
+"No Foods Found" = "Продуктів не знайдено";
+
+"Search Error" = "Помилка пошуку";
+
+"Finding the best matches for you" = "Пошук найкращих варіантів для вас";
+
+"Searching foods" = "Пошук продуктів";
+
+"AI Analysis" = "Аналіз ШІ";
+
+"Analysis Status" = "Стан аналізу";
+
+"❌ Analysis failed" = "❌ Аналіз не вдався";
+
+"⚠️ Connection interrupted..." = "⚠️ З'єднання перервано...";
+
+"✅ Analysis complete!" = "✅ Аналіз завершено!";
+
+"🍽️ Generating nutrition summary..." = "🍽️ Генерування зведення про харчування...";
+
+"📊 Processing analysis results..." = "📊 Обробка результатів аналізу...";
+
+"🤖 Running AI vision analysis..." = "🤖 Виконання аналізу зору зі штучним інтелектом...";
+
+"⚖️ Comparing to USDA standards..." = "⚖️ Порівняно зі стандартами USDA (Міністерства сільського господарства США)...";
+
+"📏 Calculating serving sizes..." = "📏 Розрахунок розмірів порцій...";
+
+"🔬 Identifying food portions..." = "🔬 Визначення порцій їжі...";
+
+"📊 Analyzing nutritional content..." = "📊 Аналіз харчової цінності...";
+
+"📡 Uploading image for analysis..." = "📡 Завантаження зображення для аналізу...";
+
+"🧠 Connecting to AI provider..." = "🧠 Підключення до постачальника послуг штучного інтелекту...";
+
+"💼 Optimizing image quality..." = "💼 Оптимізація якості зображення...";
+
+"📱 Processing image data..." = "📱 Обробка даних зображення...";
+
+"🔍 Initializing AI food analysis..." = "🔍 Ініціалізація аналізу їжі за допомогою штучного інтелекту...";
+
+"⚡ Processing AI analysis results..." = "⚡ Обробка результатів аналізу ШІ...";
+
+"📥 Received response from Claude..." = "📥 Отримав відповідь від Claude...";
+
+"⏳ AI is cooking up results..." = "⏳ Штучний інтелект підробляє результати...";
+
+"🌐 Sending request to Claude..." = "🌐 Надсилання запиту Claude...";
+
+"📡 Preparing API request..." = "📡 Підготовка запиту API...";
+
+"🔄 Encoding image data..." = "🔄 Кодування даних зображення...";
+
+"🖼️ Optimizing your image..." = "🖼️ Оптимізація вашого зображення...";
+
+"⚙️ Configuring Claude parameters..." = "⚙️ Налаштування параметрів Claude...";
+
+"⚙️ Processing analysis results..." = "⚙️ Обробка результатів аналізу...";
+
+"📊 Calculating nutrition estimates..." = "📊 Розрахунок оцінок поживності...";
+
+"🍽️ Identifying food characteristics..." = "🍽️ Визначення характеристик їжі...";
+
+"📱 Analyzing image properties..." = "📱 Аналіз властивостей зображення...";
+
+"📊 Initializing basic analysis..." = "📊 Ініціалізація базового аналізу...";
+
+"🤖 Connecting to Google Gemini..." = "🤖 Підключення до Google Gemini...";
+
+"📥 Received response from Gemini..." = "📥 Отримано відповідь від Gemini....";
+
+"🌐 Sending request to Google Gemini..." = "🌐 Надсилання запиту до Google Gemini...";
+
+"🔄 Encoding image data..." = "🔄 Кодування даних зображення...";
+
+"⚙️ Configuring Gemini parameters..." = "⚙️ Налаштування параметрів Gemini...";
+
+"📥 Received response from OpenAI..." = "📥 Отримано відповідь від OpenAI...";
+
+"💾 Caching analysis result..." = "💾 Результат аналізу кешування...";
+
+"⏳ Doing a deep analysis (may take a bit)..." = "⏳ Проведення глибокого аналізу (може зайняти трохи часу)...";
+
+"🎯 Selecting optimal AI provider..." = "🎯 Вибір оптимального постачальника ШІ...";
+
+"⚡ Starting parallel provider analysis..." = "⚡ Початок паралельного аналізу постачальників...";
+
+"Amount:" = "Сума:";
+
+"Take Over" = "Захопити";
+
+"kcal" = "ккал";
+
+"Cal" = "Кал";
+
+
+// --------- End of AI ---------
+/* */
+
 "Temp Basal" = "Тимчасовий  Базал";
 
 /* */
@@ -1029,13 +1793,25 @@ Enact a temp Basal or a temp target */
 /* Online or internal server */
 "Online or internal server" = "Онлайн або внутрішній сервер";
 
+/* Pump Error Message */
+"Can't enact the new loop cycle recommendation, because a Bolus is in progress. Wait for next loop cycle" = "Неможливо виконати рекомендацію щодо нового циклу петлі, оскільки триває болюс. Зачекайте наступного циклу петлі";
+
+/* Pump Error */
+"Pump is Busy." = "Помпа зайнята";
+
+/* Alert when bolus is already in progress (tapping the bolus button) */
+"Bolus already in Progress!" = "Болюс вже подається!";
+
 /* -------------- Developer settings ---------------------- */
 /* Debug options */
 
 "Developer" = "РОЗРОБНИК";
 
 /* Debug option view NS Upload Profile */
-"NS Upload Profile" = "Профіль Завантаження NS";
+"NS Upload Profile and Settings" = "Профіль і Налаштування NS Upload";
+
+/* Debug option delete all NS overrides */
+"Delete All NS Overrides" = "Видалити всі Перевизначення NS";
 
 /* Debug option view NS Uploaded Profile */
 "NS Uploaded Profile" = "NS Завантажений Профіль";
@@ -1049,11 +1825,20 @@ Enact a temp Basal or a temp target */
 /* Autotune config */
 "Only Autotune Basal Insulin" = "Тільки Autotune Базал Інсулін";
 
+/* */
+"Save as your Normal Basal Rates" = "Зберегти як  Нормальний Базальний Профіль";
+
+/* */
+"Save on Pump" = "Зберегти на Помпі";
+
 /* Debug option view Pump History */
 "Pump History" = "Історія Помпи";
 
+/* Debug option view Temp Basals */
+"Temp Basals" = "Тимчасовий  Базал";
+
 /* Debug option view Target Ranges */
-"Target ranges" = "Цільові діапазони";
+"Targets ranges" = "Цільові діапазони";
 
 /* Debug option view Temp targets */
 "Temp targets" = "Тимчасові цілі";
@@ -1076,6 +1861,9 @@ Enact a temp Basal or a temp target */
 /* Debug option view Enacted announcements announcements (from NS) */
 "Enacted announcements" = "Введені в дію оголошення";
 
+/* Debug option view Not Uploaded Overrides */
+"Overrides Not Uploaded" = "Перевизначення Не Завантажено";
+
 /* Debug option view Autotune */
 "Autotune" = "Автотюн";
 
@@ -1096,10 +1884,10 @@ Enact a temp Basal or a temp target */
 "Connect to Apple Health" = "З'єднатися з Apple Health";
 
 /* Show when have not permissions for writing to Health */
-"For write data to Apple Health you must give permissions in Settings > Health > Data Access" = "Для запису даних в Apple Health ви повинні надати дозволи в Налаштування > Здоров’я > Доступ до даних";
+"To allow iAPS to write data to Apple Health, you must grant permission in Settings > Health > Data Access." = "Для запису даних в Apple Health ви повинні надати дозволи в Налаштування > Здоров’я > Доступ до даних";
 
 /* */
-"This allows iAPS to read from and write to Apple Heath. You must also give permissions in Settings > Health > Data Access. If you enter a glucose value into Apple Health, open iAPS to confirm it shows up." = "Це дозволяє iAPS читати та записувати в Apple Heath. Ви також повинні надати дозволи в меню «Налаштування» > «Здоров’я» > «Доступ до даних». Якщо ви введете значення глюкози в Apple Health, відкрийте iAPS, щоб підтвердити його відображення.";
+"This allows iAPS to read from and write to Apple Heath. You must also give permissions in Settings > Health > Data Access." = "Це дозволяє iAPS читати та записувати в Apple Heath. Ви також повинні надати дозволи в меню «Налаштування» > «Здоров’я» > «Доступ до даних».";
 
 /* New ALerts ------------------------- */
 /* Info title */
@@ -1114,6 +1902,12 @@ Enact a temp Basal or a temp target */
 /* Manual temp basal mode */
 "Manual" = "Інструкція";
 
+/* An Automatic delivered bolus (SMB) */
+"SMB" = "SMB";
+
+/* A manually entered dose of external insulin */
+"External Insulin" = "Зовнішній інсулін";
+
 /* Status highlight when manual temp basal is running. */
 "Manual Basal" = "Ручна тимчасова базальна швидкість (ТБШ)";
 
@@ -1121,7 +1915,7 @@ Enact a temp Basal or a temp target */
 " -  Manual Basal ⚠️" = "Ручна ТБШ ⚠️";
 
 /* Total AT / Scheduled basal insulin */
-" U/day" = " U/день";
+"U/day" = "U/день";
 
 /* Total AT / Scheduled basal insulin */
 "Total" = "Всього";
@@ -1149,6 +1943,9 @@ Enact a temp Basal or a temp target */
 /* Description */
 "Allows fat and protein to be converted into future carb equivalents using the Warsaw formula of kilocalories divided by 10.\n\nThis spreads the carb equivilants over a maximum duration setting that can be configured from 5-12 hours.\n\nDelay is time from now until the first future carb entry.\n\nInterval in minutes is how many minutes are between entries. The shorter the interval, the smoother the result. 10, 15, 20, 30, or 60 are reasonable choices.\n\nAdjustment factor is how much effect the fat and protein has on the entries. 1.0 is full effect (original Warsaw Method) and 0.5 is half effect. Note that you may find that your normal carb ratio needs to increase to a larger number if you begin adding fat and protein entries. For this reason, it is best to start with a factor of about 0.5 to ease into it.\n\nDefault settings: Time Cap: 8 h, Interval: 30 min, Factor: 0.5, Delay 60 min" = "Дозволяє перетворювати жири та білки в майбутні еквіваленти вуглеводів, використовуючи варшавську формулу поділу кілокалорій на 10.\n\nЦе розподіляє еквіваленти вуглеводів за максимальною тривалістю, яка може бути встановлена в межах 5-12 годин. до першого введення вуглеводів у майбутньому.\n\nІнтервал у хвилинах - це кількість хвилин між записами. Чим коротший інтервал, тим паче плавний результат. 10, 15, 20, 30 або 60 - розумний вибір. Коригуючий коефіцієнт - це те, наскільки сильно жир і білок впливають на кількість продуктів. 1.0 – це повний ефект (оригінальний Варшавський метод), а 0.5 – половинний ефект. Зверніть увагу, що ви можете виявити, що ваше нормальне співвідношення вуглеводів потребує збільшення, якщо ви почнете додавати жири та білки. З цієї причини найкраще починати з коефіцієнта приблизно 0.5, щоб полегшити його використання.";
 
+/* Fat/Protein additional info */
+"\n\nCarb equivalents that get to small (0.6g or under) will be excluded and the equivalents over 0.6 but under 1 will be rounded up to 1. With a higher time interval setting you'll get fewer equivalents with a higher carb amount." = "\n\nВуглеводні еквіваленти, які стають малими (0,6 г або менше), будуть виключені, а еквіваленти понад 0,6, але менше 1, округлятимуться до 1. Якщо встановити вищий часовий інтервал, ви отримаєте менше еквівалентів із більшою кількістю вуглеводів .";
+
 /* FPU Settings Title */
 "Fat and Protein" = "Жир та Білок";
 
@@ -1167,8 +1964,14 @@ Enact a temp Basal or a temp target */
 /* Service Section */
 "Fat And Protein Conversion" = "Перетворення Жиру та Білка";
 
+/* Ignore flat CGM readings */
+"Ignore flat CGM readings" = "Ігнорувати рівні показання CGM";
+
 /* Service Section */
 "Profile Override" = "Перевизначення Профілю";
+
+/* Extend max override percentage */
+"Max Override 400%" = "Макс. перевизначення 400%";
 
 /* */
 "Override Profiles" = "Змінити Параметри";
@@ -1193,6 +1996,21 @@ Enact a temp Basal or a temp target */
 /* */
 "Disable SMBs" = "Вимкнути SMBs";
 
+/* */
+"End the Override with next Meal" = "Завершіть перевизначення наступним прийомом Їжі";
+
+/* */
+"End the Override when Glucose is Trending Up" = "Завершіть перевизначення, коли рівень Глюкози має тенденцію до зростання";
+
+/* */
+"And when Glucose is higher than" = "А коли рівень глюкози вищий за";
+
+/* */
+"End the Override when Glucose is Lower ..." = "Завершити перезапис, коли рівень глюкози знизиться ...";
+
+/* */
+"... than" = "... ніж";
+
 /* Your normal Profile. Use a short string */
 "Normal Profile" = "Звичайний профіль";
 
@@ -1203,13 +2021,16 @@ Enact a temp Basal or a temp target */
 "Profiles" = "Профілі";
 
 /* */
+"Advanced Settings" = "Розширені Налаштування";
+
+/* */
 "More options" = "Додаткові параметри";
 
 /* */
 "Schedule when SMBs are Off" = "Розклад, коли SMBs вимкнено";
 
 /* */
-"Change ISF and CR" = "Змінити ISF і CR";
+"Change ISF and CR and Basal" = "Змініть ISF, CR і Basal";
 
 /* */
 "Change ISF" = "Змінити ISF";
@@ -1218,10 +2039,16 @@ Enact a temp Basal or a temp target */
 "Change CR" = "Змінити CR";
 
 /* */
+"Change Basal" = "Зміна Базалу";
+
+/* */
 "SMB Minutes" = "Хвилини SMB";
 
 /* */
 "UAM SMB Minutes" = "Хвилини UAM SMB";
+
+/* */
+"Override Max IOB" = "Перевизначити Макс IOB";
 
 /* */
 "Start new Profile" = "Створіть новий Профіль";
@@ -1230,7 +2057,13 @@ Enact a temp Basal or a temp target */
 "Save as Profile" = "Зберегти як Профіль";
 
 /* */
-"Return to Normal" = "Повернутися до Нормального стану";
+"Save as preset" = "Зберегти як шаблон";
+
+/* Alert */
+"Cancel Profile Override" = "Скасувати заміну профілю?";
+
+/* Alert */
+"Cancel Temp Target" = "Відмінити Тимчасову ціль";
 
 /* Alert */
 "Return to Normal?" = "Повернутися до Нормального стану?";
@@ -1266,7 +2099,7 @@ Enact a temp Basal or a temp target */
 "Statistics and Home View" = "Статистика та Домашня сторінка";
 
 /* Alert text */
-"Delete carb equivalents?" = "Видалити вуглеводні еквіваленти?";
+"Delete Carb Equivalents?" = "Видалити вуглеводні еквіваленти?";
 
 /* */
 "All FPUs of the meal will be deleted." = "Усі FPU страви буде видалено.";
@@ -1276,6 +2109,15 @@ Enact a temp Basal or a temp target */
 
 /* */
 "Meal Presets" = "Попередні Налаштування Їжі";
+
+/* Back button */
+"Back" = "Тому";
+
+/* Search Saved Food presets */
+"Search" = "Пошук";
+
+/* Placeholder for name of dish when adding a new food preset */
+"New" = "Новий";
 
 /* */
 "Empty" = "Порожній";
@@ -1301,6 +2143,15 @@ Enact a temp Basal or a temp target */
 /* Watch Config Option */
 "Display Protein & Fat" = "Показати білок і жир";
 
+/* Time of new meal entry */
+"Now" = "Щойно";
+
+/* Display future data table entries */
+"Show Future" = "Показати Майбутнє";
+
+/* Hide future data table entries */
+"Hide Future" = "Приховати майбутнє";
+
 /* ----------------------- New Bolus Calculator ---------------------------*/
 /* Warning about bolus recommendation. Title */
 
@@ -1311,6 +2162,15 @@ Enact a temp Basal or a temp target */
 
 /* */
 "Eventual Glucose" = "Можлива глюкоза";
+
+/* */
+"Minimum Predicted Glucose" = "Мінімальна прогнозована Глюкоза";
+
+/* */
+"Please wait" = "Будь ласка, зачекайте";
+
+/* */
+"Glucose, " = "Глюкоза, ";
 
 /* */
 "Target Glucose" = "Цільова Глюкоза";
@@ -1360,6 +2220,12 @@ Enact a temp Basal or a temp target */
 /* Add insulin without bolusing alert */
 " without bolusing" = " без введення болюса помпою";
 
+/* */
+"Don't Use 15 min Trend" = "Не використовувати 15-хвилинний тренд";
+
+/* */
+"Don't adjust for past 15 minutes glucose trend." = "Не коригувати на основі тренду глюкози протягом останніх 15 хвилин.";
+
 /* -------------------------------------------------------------------------------------------
   DASH strings
 */
@@ -1378,11 +2244,7 @@ Enact a temp Basal or a temp target */
 /* Text for confidence reminders navigation link */
 "Confidence Reminders" = "Нагадування про Впевненість";
 
-<<<<<<< HEAD
-"Confidence reminders are beeps from the Pod which can be used to acknowledge selected commands when the Pod is not silenced." = "Нагадування про довіру — це звукові сигнали Pod, які можна використовувати для підтвердження вибраних команд.";
-=======
 "Confidence reminders are beeps from the Pod which can be used to acknowledge selected commands when the Pod is not silenced." = "Сигнали підтвердження — це звукові сигнали Podʼа, які можна використовувати для підтвердження вибраних команд.";
->>>>>>> 7f4d47c8 (Crowdin (#334))
 
 /* button title for saving low reservoir reminder while saving */
 "Saving..." = "Збереження...";
@@ -1412,17 +2274,10 @@ Enact a temp Basal or a temp target */
 "No confidence reminders are used." = "Нагадування про довіру не використовуються.";
 
 /* Description for BeepPreference.manualCommands */
-<<<<<<< HEAD
-"Confidence reminders will sound for commands you initiate, like bolus, cancel bolus, suspend, resume, save notification reminders, etc. When the app automatically adjusts delivery, no confidence reminders are used." = "Довірені звукові сигнали спрацюють для операцій, які Ви ініціюєте - Болюс, Скасування Болюса, Припинення подачі, Відновлення подачі, Збереження нагадувань тощо. Коли петля автоматично змінює подачу інсуліну – звукові сигнали не використовуються.";
-
-/* Description for BeepPreference.extended */
-"Confidence reminders will sound when the app automatically adjusts delivery as well as for commands you initiate." = "Довірені звукові сигнали спрацюють навіть тоді, коли петля автоматично змінить подачу інсуліну, а також команд, які Ви ініціюєте.";
-=======
 "Confidence reminders will sound for commands you initiate, like bolus, cancel bolus, suspend, resume, save notification reminders, etc. When the app automatically adjusts delivery, no confidence reminders are used." = "Нагадування про достовірність лунатимуть для команд, які ви ініціюєте, як-от болюс, скасування болюсу, призупинення, відновлення, збереження сповіщень тощо. Коли Loop автоматично регулює доставку, нагадування про довіру не використовуються.";
 
 /* Description for BeepPreference.extended */
 "Confidence reminders will sound when the app automatically adjusts delivery as well as for commands you initiate." = "Нагадування про довіру лунатимуть, коли Loop автоматично регулює доставку, а також для команд, які ви ініціюєте.";
->>>>>>> 7f4d47c8 (Crowdin (#334))
 
 /* Label text for expiration reminder default row */
 "Expiration Reminder Default" = "Нагадування про закінчення терміну";
@@ -1454,7 +2309,7 @@ Enact a temp Basal or a temp target */
 "%1$@ for %2$@" = "%1$@ для %2$@";
 
 /* Description text on manual temp basal action sheet */
-"Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled." = "Петля не автоматично змінюватиме подачу інсуліну, поки Тимчасова Базальна Швидкість не завершиться, або не буде скасована користувачем.";
+"iAPS will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled." = "iAPS не налаштовуватиме автоматично введення інсуліну, доки тимчасова базальна доза не завершиться або не буде скасована.";
 /* Button text for setting manual temporary basal rate*/
 "Set Temporary Basal" = "Встановіть Тимчасову Базальну Швидкість";
 
@@ -1547,13 +2402,13 @@ Enact a temp Basal or a temp target */
 "Change HbA1c Unit" = "Змінити одиницю HbA1c";
 
 /* */
-"Display Chart X - Grid lines" = "Відображення діаграми X – лінії сітки";
+"Vertical grid lines" = "Vertical grid lines";
 
 /* */
-"Display Chart Y - Grid lines" = "Відображення діаграми Y – лінії сітки";
+"Horizontal grid lines" = "Horizontal grid lines";
 
 /* */
-"Display Chart Threshold lines for Low and High" = "Відображення порогових ліній діаграми для низьких і високих значень";
+"Threshold lines (Low / High)" = "Threshold lines (Low / High)";
 
 /* */
 "Standing / Laying TIR Chart" = "Короткий вигляд діаграми часу у TIR";
@@ -1565,10 +2420,16 @@ Enact a temp Basal or a temp target */
 "2 hours" = "2 години";
 
 /* */
+"3 hours" = "3 години";
+
+/* */
 "4 hours" = "4 години";
 
 /* */
 "6 hours" = "6 годин";
+
+/* */
+"9 hours" = "9 годин";
 
 /* */
 "12 hours" = "12 годин";
@@ -1578,6 +2439,12 @@ Enact a temp Basal or a temp target */
 
 /* Average BG = */
 "Average" = "Середній";
+
+/* TIR Preview Headline */
+"Time In Range" = "Час в Діапазоні";
+
+/* Average Loop Interval in minutes */
+"Average Interval" = "Середній Інтервал";
 
 /* Median BG */
 "Median" = "Медіана";
@@ -1620,6 +2487,15 @@ Enact a temp Basal or a temp target */
 
 /* Loop Errors in statPanel */
 "Errors" = "Помилки";
+
+/* Loop Statistics pop-up description */
+"Success = Started / Completed (loops)" = "Успіх = Розпочато/Завершено (Петлі)";
+
+/* Loop Statistics pop-up */
+"Most Frequent Error" = "Найпоширеніша Помилка";
+
+/* Loop Statistics pop-up */
+"Non-completed Loops" = "Незавершені Петлі";
 
 /* Average loop interval */
 "Interval" = "Інтервал";
@@ -1666,6 +2542,42 @@ Enact a temp Basal or a temp target */
 /* HbA1c for all glucose storage days */
 "all" = "все";
 
+/* IOB View */
+"Insulin on Board" = "Інсуліну на борту";
+
+/* Active Insulin View */
+"Time with negative insulin" = "Час з негативним інсуліном";
+
+/* Active Insulin View */
+"Insulin compared to yesterday" = "Інсулін порівняно з вчорашнім днем";
+
+/* Active Insulin View */
+"Insulin compared to average" = "Інсулін порівняно із середнім";
+
+/* Active Insulin View */
+"Average Insulin 10 days" = "Середній інсулін 10 днів";
+
+/* Active Insulin View */
+"TDD yesterday" = "TDD вчора";
+
+/* Active Insulin View */
+"TDD 2 days ago" = "TDD 2 дні тому";
+
+/* Active Insulin View */
+"TDD 3 days ago" = "TDD 3 дні тому";
+
+/* COB View */
+"Carbohydrates on Board" = "Вуглеводи на борту";
+
+/* UI/UX-setting */
+"Display COB Chart" = "Відображення діаграми COB";
+
+/* UI/UX-setting */
+"Display Insulin Activity Chart" = "Відображення діаграми активності Інсуліну";
+
+/* UI/UX-setting */
+"Don't ask for saving search result as meal preset" = "Don't ask for saving search result as meal preset";
+
 /* --------------------------------------------------------  Dexcom G7 --------------------------------------*/
 
 "CGM Configuration" = "Конфігурація CGM";
@@ -1682,9 +2594,458 @@ Enact a temp Basal or a temp target */
 "Experimental" = "Експериментальний";
 /* Smoothing of CGM readings */
 "Smooth Glucose Value" = "Гладке Значення Глюкози";
+/* ------------------------------------------- Sharing -------------------------------------------------------*/
+/* Setting Title */
 
-/* -----------------------------------------------------------------------------------------------------------
+"Sharing" = "Поширити";
 
+/* Share and Backup page header */
+"Share and Backup" = "Поділитися та створити Резервну копію";
+
+/* Section 1 title */
+"Upload Settings and Statistics" = "Звантажити Налаштування та Статистику";
+
+/* On-off toggle */
+"Share and Backup all of your Settings and Statistics" = "Поділитись та зробити Резервну копію всіх ваших Налаштувань та Статистики";
+
+/* Title of dropdown menu */
+"Sex" = "Стать";
+
+/* Sex dropdown menu option */
+"Woman" = "Жінка";
+
+/* Sex dropdown menu option */
+"Man" = "Чоловік";
+
+/* Sex dropdown menu option */
+"Other" = "Інше";
+
+/* Sex dropdown menu option */
+"Secret" = "Секретний ключ";
+
+/* Title of birth date field */
+"Birth Date" = "Дата народження";
+
+/* Share and Backup info text */
+"\nIf you enable \"Share and Backup\" daily backups of your settings and statistics will be made to online database.\n\nMake sure to copy and save your recovery token below. The recovery token is required to import your settings to another phone when using the onboarding view." = "\nЯкщо ви ввімкнете «Поділитися та створити резервну копію», щоденні резервні копії ваших налаштувань і статистики будуть створені в онлайн-базі даних.\n\nОбов’язково скопіюйте та збережіть токен відновлення нижче. Токен відновлення потрібен для імпорту ваших налаштувань на інший телефон під час перегляду адаптації.";
+
+/* Section title if sharing off */
+"Share Bare Minimum" = "Мінімум розподілу";
+
+/* Minimum share toggle */
+"Just iAPS version number" = "Номер версії iAPS";
+
+/* Share info text */
+"Every bit of information you choose to share is uploaded anonymously. To prevent duplicate uploads, the data is identified with a unique random string saved on your phone, the recovery token." = "Кожна інформація, якою ви вирішите поділитися, завантажується анонімно. Щоб запобігти повторним завантаженням, дані ідентифікуються за допомогою унікального випадкового рядка, збереженого на вашому телефоні, токена відновлення.";
+
+/* Token section title */
+"Your recovery token" = "Ваш токен для відновлення";
+
+/* Token display button */
+"Tap to display" = "Натисніть для відображення";
+
+/* Token copy button */
+"Long press to copy" = "Утримуйте для копіювання";
+
+/* Link to statistics button */
+"View Personal Statistics" = "Переглянути Персональну Статистику";
+
+/* */
+"Your identifier" = "Ваш ідентифікатор";
+
+/* */
+"Share your data anonymously" = "Надсилайте свої дані анонімно";
+
+/* ——————————Contact Image ————————*/
+/* Contact Image, contacts list - prefix before the contact given name */
+
+"Contact" = "Контакт";
+
+/* Contact Image, settings, header of the contacts list */
+"Contacts" = "Контакти";
+
+/* Contact Image, settings, save your changes reminedr */
+"Don't forget to save your changes." = "Не забудьте зберегти зміни!";
+
+/* Contact Image, settings, message about need to access contacts */
+"iAPS needs access to your contacts for this feature to work" = "Для роботи цієї функції iAPS потрібен доступ до ваших контактів";
+
+/* Contact Image, settings, button to grant access to contacts */
+"Grant iAPS access to contacts" = "Надати iAPS доступ до контактів";
+
+/* Contact Image, settings, message when access to contacts denied */
+"Access to contacts denied" = "Доступ до контактів заборонено";
+
+/* Contact Image, settings, message when access to contacts restricted */
+"Access to contacts is restricted (parental control?)" = "Доступ до контактів обмежений (батьківський контроль?)";
+
+/* Contact Image, settings, message when access to contacts is in unknown state */
+"Access to contacts - unknown state" = "Доступ до контактів - невідомий стан";
+
+/* Contact Image, settings, short description of the feature */
+"A Contact Image can be used to get live updates from iAPS to your Apple Watch Contact complication and/or your iPhone Contact widget." = "Зображення контакту можна використовувати для отримання поточних оновлень від iAPS для вашої складності контактів Apple Watch та/або віджета контактів iPhone.";
+
+/* Contact Image, settings, main header */
+"Contact Image" = "Зображення контакту";
+
+/* Contact Image, settings, label for the layout picker */
+"Layout" = "Макет";
+
+/* Contact Image, settings, single layout name */
+"Single" = "Одиночний";
+
+/* Contact Image, settings, split layout name */
+"Split" = "Розділити";
+
+/* Contact Image, settings, outer ring - don't show */
+"DontShowRing" = "Не показувати";
+
+/* Contact Image, settings, outer ring - Loop status */
+"LoopStatusRing" = "Статус петлі";
+
+/* Contact Image, settings, outer ring - IOB */
+"IOBRing" = "IOB";
+
+/* Contact Image, settings, outer ring - COB */
+"COBRing" = "COB";
+
+/* Contact Image, settings, outer ring - IOB+COB */
+"IOB+COBRing" = "IOB+COB";
+
+/* Contact Image, settings, label for the primary value picker */
+"Primary" = "Основний";
+
+/* Contact Image, settings, label for the top value picker */
+"Top" = "Вгору";
+
+/* Contact Image, settings, label for the bottom value picker */
+"Bottom" = "Внизу";
+
+/* Contact Image, settings, header for the outer ring section */
+"Ring" = "Дзвінок";
+
+/* Contact Image, settings, label for the outer ring picker */
+"Outer" = "Зовнішній";
+
+/* Contact Image, settings, label for the ring width picker */
+"Width" = "Ширина";
+
+/* Contact Image, settings, label for the ring gap picker */
+"Gap" = "Проміжок";
+
+/* Contact Image, settings, header for the font section */
+"Font" = "Шрифт";
+
+/* Contact Image, settings, label for the font size picker */
+"Size" = "Розмір";
+
+/* Contact Image, settings, label for the secondary font size picker */
+"Secondary size" = "Додатковий розмір";
+
+/* Contact Image, settings, label for the font tracking picker (tracking - horizontal spacing between letters) */
+"Tracking" = "Відстеження";
+
+/* Contact Image, settings, label for the font weight picker */
+"Weight" = "Вага";
+
+/* Contact Image, settings, label for the dark-mode switcher */
+"Dark mode" = "Темний режим";
+
+/* Contact Image, settings, tighter font tracking */
+"TighterFontTracking" = "Вантаж";
+
+/* Contact Image, settings, tight font tracking */
+"TightFontTracking" = "Щільний";
+
+/* Contact Image, settings, normal font tracking */
+"NormalFontTracking" = "Нормальний";
+
+/* Contact Image, settings, wide font tracking */
+"WideFontTracking" = "Широкий";
+
+/* Contact Image, settings, light font weight */
+"LightFontWeight" = "Світлий";
+
+/* Contact Image, settings, regular font weight */
+"RegularFontWeight" = "Звичайний";
+
+/* Contact Image, settings, medium font weight */
+"MediumFontWeight" = "Середня";
+
+/* Contact Image, settings, semibold font weight */
+"SemiboldFontWeight" = "Напівжирний";
+
+/* Contact Image, settings, bold font weight */
+"BoldFontWeight" = "Жирний";
+
+/* Contact Image, settings, black font weight (black is "very bold") */
+"BlackFontWeight" = "Чорна";
+
+/* Contact Image, settings, don't display any value */
+"NoneContactValue" = "Жоден";
+
+/* Contact Image, settings, Glucose (data to display) */
+"GlucoseContactValue" = "Глюкоза";
+
+/* Contact Image, settings, Eventual BG (data to display) */
+"EventualBGContactValue" = "Подіївний BG";
+
+/* Contact Image, settings, Delta (data to display) */
+"DeltaContactValue" = "Дельта";
+
+/* Contact Image, settings, Trend (data to display) */
+"TrendContactValue" = "Тренди";
+
+/* Contact Image, settings, Last loop time (data to display) */
+"LastLoopTimeContactValue" = "Час останньої петлі";
+
+/* Contact Image, settings, COB (data to display) */
+"COBContactValue" = "COB";
+
+/* Contact Image, settings, IOB (data to display) */
+"IOBContactValue" = "IOB";
+
+/* Contact Image, settings, loop status (data to display) */
+"LoopStatusContactValue" = "Статус петлі";
+
+/* --------------------------  Dana Pump  ---------------------- */
+/* Dana footer */
+
+"Dana pump does not allow editing of max basal and max bolus. Configure these in the doctor's settings of the pump. Saving the settings will fetch the lastest values from the pump" = "Помпа Dana  не дозволяє редагувати максимальний Базал і максимальний Болюс. Налаштуйте їх у налаштуваннях \"лікаря\" помпи. Збереження налаштувань дозволить отримати останні значення з помпи";
+
+/* --------- Auto ISF --------- */
+/* */
+
+"Dynamic ISF is disabled while Auto ISF is enabled" = "Динамічний ISF вимкнено, а Auto ISF увімкнено";
+
+/* */
+"Default value: 1.2 The upper limit of ISF adjustment" = "Значення за замовчуванням: 1,2 Верхня межа налаштування ISF";
+
+
+/* */
+"Default value: 0.8 The lower limit of ISF adjustment" = "Значення за замовчуванням: 0,8 Нижня межа налаштування ISF";
+
+/* */
+"Auto ISF Max" = "Auto ISF Max";
+
+/* */
+"Auto ISF Min" = "Auto ISF Min
+";
+
+/* */
+"Needs an EatingSoon specific Glucose Target set by a profile override or a temp target" = "Потрібен спеціальний цільовий рівень Глюкози EatingSoon, встановлений за допомогою перевизначення профілю або тимчасового цільового значення";
+
+/* */
+"Once this Target is cancelled, the B30 high TBR will be cancelled" = "Після скасування цієї цілі буде скасовано високий TBR B30";
+
+/* */
+"In order to activate B30 a minimum manual Bolus needs to be given" = "Щоб активувати B30, необхідно ввести мінімальний болюс вручну";
+
+/* */
+"You can specify how long B30 run and how high it is" = "Ви можете вказати тривалість роботи B30 і її висоту";
+
+/* */
+"Absolute Safety TBR " = "Абсолютна безпека TBR";
+
+/* */
+"Amount in U/hr of the small safety TBR, which is given to avoid ketoacidosis. Will be limited to min = 0U/hr, max = 2U/hr!" = "Кількість в U/год невеликого безпечного TBR, який дають, щоб уникнути кетоацидозу. Буде обмежено до min = 0U/год, максимум = 2U/год!";
+
+/* */
+"Enable Keto protection with pre-defined TBR" = "Увімкніть захист Keto за допомогою попередньо визначеного TBR";
+
+/* */
+"Should an absolute TBR between 0 and 2 U/hr be specified instead of percentage of current BR" = "Чи слід вказувати абсолютний TBR від 0 до 2 U/год замість відсотка поточного BR";
+
+/* */
+"Safety TBR in %" = "Безпека TBR в %";
+
+/* */
+"Quantity of the small safety TBR in % of Profile BR, which is given to avoid ketoacidosis. Will be limited to min = 5%, max = 50%!" = "Кількість невеликого безпечного TBR у % від профілю BR, який дається для уникнення кетоацидозу. Буде обмежено до min = 5%, max = 50%!";
+
+/* */
+"Variable Keto Protection" = "Змінний Keto захист";
+
+/* */
+"If activated the small safety TBR kicks in when IOB is in negative range as if no basal insulin has been delivered for one hour. If deactivated and static is enabled every Zero Temp is replaced with the small TBR." = "Якщо активовано, малий безпековий TBR спрацьовує, коли IOB знаходиться в негативному діапазоні, як ніби базальний інсулін не вводився протягом однієї години. Якщо дезактивовано та статику ввімкнено, кожна нульова температура замінюється малим TBR.";
+
+/* */
+"Enable Keto Protection" = "Увімкніть Keto захист";
+
+/* */
+"Ketoacidosis protection will apply a small configurable Temp Basal Rate always or if certain conditions arise instead of a Zero temp!\nThe feature exists because in special cases a person could get ketoacidosis from 0% TBR. The idea is derived from sport. There could be problems when a basal rate of 0% ran for several hours. Muscles in particular could shut off.\nThis feature enables a small safety TBR to reduce the ketoacidosis risk. Without the Variable Protection that safety TBR is always applied. The idea behind the variable protection strategy is that the safety TBR is only applied if sum of basal-IOB and bolus-IOB falls negatively below the value of the current basal rate." = "Захист від кетоацидозу застосовуватиме невелику  Базальну Швидкість, яку можна налаштувати, завжди або за певних умов замість нульової !\nЦя функція існує, тому що в окремих випадках людина може отримати кетоацидоз від 0% TBR. Ідея походить від спорту. Можуть виникнути проблеми, якщо базальна норма 0% працювала протягом кількох годин. Зокрема, м’язи можуть вимикатися.\nЦя функція дає змогу зменшити ризик кетоацидозу через невеликий безпечний TBR. Без змінного захисту ця безпека TBR завжди застосовується. Ідея змінної стратегії захисту полягає в тому, що безпека TBR застосовується, лише якщо сума базального IOB і болюсного IOB падає негативно нижче значення поточної базальної швидкості.";
+
+/* */
+"B30 Settings" = "Налаштування B30";
+
+/* */
+"Duration of increased B30 basal rate" = "Тривалість підвищеної базальної дози B30";
+
+/* */
+"Duration of increased basal rate that saturates the infusion site with insulin. Default 30 minutes, as in B30. The EatingSoon TT needs to be running at least for this duration, otherthise B30 will stopp after the TT runs out." = "Тривалість підвищеної базальної швидкості, яка насичує місце інфузії інсуліном. За замовчуванням 30 хвилин, як у B30. EatingSoon TT має працювати принаймні протягом цього часу, інакше B30 зупиниться, коли TT закінчиться.";
+
+/* */
+"B30 Basal rate increase factor" = "B30 Коефіцієнт підвищення базальної дози";
+
+/* */
+"Factor that multiplies your normal regular basal rate for B30. Max Basal rate enacted is the max of your pump max Basal setting. Default is 5." = "Коефіцієнт, який множить вашу нормальну базальну дозу B30. Запроваджена максимальна базальна норма – це максимальна  базальна норма вашої помпи. За замовчуванням 5.";
+
+/* */
+"Upper Delta limit" = "Верхня межа Дельти";
+
+/* */
+"SMBs will be disabled when under this limit, while a B30 Basal rate is running. Default is 8 mg/dl (0.5 mmol/l)." = "SMBs буде вимкнено, якщо нижче цього ліміту, коли працює базальна доза B30. За замовчуванням 8 mg/dl (0.5 mmol/l).";
+
+/* */
+"Upper BG limit" = "Верхня межа BG";
+
+/* */
+"SMBs will be disabled when under this limit, while a B30 Basal rate is running. Default is 130 mg/dl (7.2 mmol/l)." = "SMBs буде вимкнено, якщо нижче цього ліміту, коли працює базальна доза B30. За замовчуванням 130 mg/dl (7.2 mmol/l).";
+
+/* */
+"Target Level for B30 to be enacted" = "Цільовий рівень для B30 має бути прийнятий";
+
+/* */
+"An EatingSoon Override Target (or a Temporary Target) needs to be activated to start the B30 adaption. Target needs to be below this setting for B30 to start. Default is 90 mg/dl. If you cancel this EatingSoon Target, the B30 basal rate will stop." = "Щоб розпочати адаптацію B30, потрібно активувати ціль EatingSoon Override (або тимчасову ціль). Ціль має бути нижче цього налаштування, щоб B30 почався. За замовчуванням 90 mg/dl. Якщо ви скасуєте ціль EatingSoon Target, базальна норма B30 припиниться.";
+
+/* */
+"Minimum Start Bolus size" = "Мінімальний початковий розмір Болюсу";
+
+/* */
+"Minimum manual bolus to start a B30 adaption." = "Мінімальний ручний Болюс для початку адаптації B30.";
+
+/* */
+"Activate B30" = "Активуйте B30";
+
+/* */
+"Enables an increased basal rate after an EatingSoon Override Target (or Temp Target) and a manual bolus to saturate the infusion site with insulin to increase insulin absorption for SMB's following a meal with no carb counting." = "Забезпечує підвищення Базальної Швидкості після EatingSoon Override Target (або Temp Target) і ручного Болюсу для насичення місця інфузії інсуліном для збільшення всмоктування інсуліну для SMB після прийому їжі без підрахунку вуглеводів.";
+
+/* */
+"ISF weight while BG decelerates" = "Вага ISF, поки BG сповільнюється";
+
+/* */
+"This is the weight applied while glucose decelerates and which weakens ISF. With 0 this contribution is effectively disabled. 0.1 might be a good starting point." = "Це значення, яке застосовується під час уповільнення рівня глюкози та послаблення ISF. З 0 цей внесок фактично вимкнено. 0,1 може бути хорошою відправною точкою.";
+
+/* */
+"ISF weight while BG accelerates" = "Вага ISF, тоді як BG прискорюється";
+
+/* */
+"Default value: 0. This is the weight applied while glucose accelerates and which strengthens ISF. With 0 this contribution is effectively disabled. 0.02 is a safe starting point, from which to move up. Typical settings are around 0.15!" = "Значення за замовчуванням: 0. Це вага, що застосовується під час прискорення глюкози та посилення ISF. З 0 цей внесок фактично вимкнено. 0,02 є безпечною відправною точкою, від якої можна рухатися вгору. Типові параметри становлять близько 0,15!";
+
+/* */
+"Duration ISF postprandial adaption" = "Тривалість ISF постпрандіальної адаптації";
+
+/* */
+"Default value: 3. This is the duration in hours how long after a meal the effect will be active. Oref will delete carb timing after 10 hours latest no matter what you enter." = "Значення за замовчуванням: 3. Це тривалість у годинах, протягом якого ефект буде активним після прийому їжі. Oref видалить час вуглеводів після 10 годин, незалежно від того, що ви введете.";
+
+/* */
+"ISF weight for postprandial BG rise" = "Вага ISF для підвищення BG після їжі";
+
+/* */
+"This is the weight applied to the linear slope while glucose rises and  which adapts ISF. With 0 this contribution is effectively disabled. Start with 0.01 - it hardly goes beyond 0.05!" = "Це значення, що застосовується до лінійного нахилу під час підвищення рівня глюкози та адаптує ISF. З 0 цей внесок фактично вимкнено. Почніть з 0,01 - навряд чи виходить за межі 0,05!";
+
+/* */
+"ISF weight for higher BG deltas" = "Вага ISF для вищих дельт BG ";
+
+/* */
+"Default value: 0.0 This is the weight applied to the polygon which adapts ISF higher deltas. With 0.0 the effect is effectively disabled." = "Значення за замовчуванням: 0,0 Це вага, застосована до багатокутника, який адаптує вищі дельти ISF. З 0,0 ефект фактично вимикається.";
+
+/* */
+"ISF weight for lower BG" = "Поправка на низький рівень BG";
+
+/* */
+"Default value: 0.0 This is the weight applied to the polygon which adapts ISF if glucose is below target. With 0.0 the effect is effectively disabled." = "Значення за замовчуванням: 0,0 Це вага, застосована до багатокутника, який адаптує ISF, якщо рівень глюкози нижчий за цільовий. З 0,0 ефект фактично вимикається.";
+
+/* */
+"ISF weight for higher BG" = "Виправлення на високий рівень BG";
+
+/* */
+"Default value: 0.0 This is the weight applied to the polygon which adapts ISF if glucose is above target. With 0.0 the effect is effectively disabled." = "Значення за замовчуванням: 0,0 Це вага, застосована до багатокутника, який адаптує ISF, якщо рівень глюкози перевищує цільовий показник. З 0,0 ефект фактично вимикається.";
+
+/* */
+"Duration Weight" = "Коригування тривало підвищеного рівня глюкози";
+
+/* */
+"Weight for a prolonged high glucose. For every hour the glucose stays high this adjustment will lower your ISF more.\n\nThe formula for Dura ISF adjustment is:\n\nDura ISF = 1 + hours above target * weight / target * (average glucose - target glucose)" = "Вага, що відповідає тривало високому рівню глюкози в крові. З кожною годиною, коли рівень глюкози в крові залишається занадто високим, це налаштування буде знижувати чутливість до інсуліну. \n\nФормула для Dura ISF коригування така:\n\nDura ISF = 1 + кількість годин вище мети * вага / ціль * (середня глюкоза - цільова глюкоза)";
+
+/* */
+"SMB Delivery Ratio BG Range" = "SMB Delivery Ratio BG Range";
+
+/* SMB Delivery Ratio BG Range description */
+"Default value: 0, Sensible is between 40 mg/dL and 120 mg/dL. The linearly increasing SMB delivery ratio is mapped to the glucose range [target_bg, target_bg+bg_range]. At target_bg the SMB ratio is smb_delivery_ratio_min, at target_bg+bg_range it is smb_delivery_ratio_max. With 0 the linearly increasing SMB ratio is disabled and the fix smb_delivery_ratio is used." = "Значення за замовчуванням: 0, Sensible – від 40 mg/dL до 120 mg/dL. Лінійно зростаючий коефіцієнт доставки SMB відображається в діапазоні глюкози [target_bg, target_bg+bg_range]. У target_bg коефіцієнт SMB становить smb_delivery_ratio_min, у target_bg+bg_range – smb_delivery_ratio_max. З 0 лінійно зростаючий коефіцієнт SMB вимкнено та використовується виправлення smb_delivery_ratio.";
+
+/* */
+"SMB Delivery Ratio Maximum" = "Максимальний коефіцієнт доставки SMB";
+
+/* */
+"Default value: 0.5 This is the higher end of a linearly increasing SMB Delivery Ratio rather than the fix value in OpenAP SMB Delivery Ratio." = "Значення за замовчуванням: 0,5. Це найвищий рівень лінійно зростаючого коефіцієнта доставки SMB, а не фіксоване значення в OpenAP SMB Delivery Ratio.";
+
+/* */
+"SMB Delivery Ratio Minimum" = "SMB Delivery Ratio Minimum";
+
+/* */
+"Default value: 0.5 This is the lower end of a linearly increasing SMB Delivery Ratio rather than the fix value in OpenAP SMB Delivery Ratio." = "Значення за замовчуванням: 0,5 Це нижня межа лінійно зростаючого коефіцієнта доставки SMB, а не фіксоване значення в OpenAP SMB Delivery Ratio.";
+
+/* */
+"Toggles" = "Перемикає";
+
+/* */
+"Enable postprandial ISF adaption always" = "Завжди вмикайте адаптацію ISF після їжі";
+
+/* */
+"Enable the postprandial ISF adaptation all the time regardless of when the last meal was taken." = "Увімкніть постпрандіальну адаптацію ISF постійно, незалежно від того, коли був останній прийом їжі.";
+
+/* */
+"Enable DuraISF effect even with COB" = "Увімкніть ефект DuraISF навіть із COB";
+
+/* */
+"Enable DuraISF even if COB is present not just for UAM." = "Увімкніть DuraISF, навіть якщо COB присутній не лише для UAM.";
+
+/* */
+"Enable BG acceleration" = "Увімкнути прискорення BG ";
+
+/* */
+"Enables the BG acceleration adaptions, adjusting ISF for accelerating/decelerating blood glucose." = "Вмикає адаптацію прискорення BG, регулюючи ISF для прискорення/уповільнення рівня глюкози в крові.";
+
+/* */
+"Override Auto ISF" = "Перевизначити Auto ISF";
+
+/* */
+"Enable Auto ISF" = "Увімкнути автоматичний ISF";
+
+/* */
+"Enables Auto ISF. This will disable any eventual dynamic ISF/CR setting" = "Вмикає автоматичний ISF. Це вимкне будь-яке можливе динамічне налаштування ISF/CR";
+
+/* */
+"Keto Protection" = "KETO PROTECTION";
+
+/* */
+"Max IOB Threshold Percent" = "Максимальний пороговий відсоток IOB";
+
+/* IOB Threshold Percent Description */
+"Percentage of the max IOB setting to use for SMBs while Auto ISF is enabled.\n\nWhile current IOB is below the threshold, the SMB amount can exceed the threshold by 30%, however never the max IOB setting.\n\nAt 100% this setting is disabled." = "Відсоток від максимального рівня IOB, що використовується для SMB при включеному Auto ISF.\n\nПоки поточний рівень IOB нижче встановленого порога, кількість SMB може перевищувати поріг на 30%, але ніколи не перевищить максимальний рівень IOB.\n\nПри значенні 100% це налаштування відключається.";
+
+/* */
+"Auto ISF" = "Авто ISF";
+
+/* Is true */
+" on" = " увімкнути";
+
+/* Is false */
+" off" = " вимкнути";
+
+/* Override adjustment of ISF, CR and Basal */
+"Adjust " = "Налаштувати";
+
+/* History of the adjustments */
+"Final Ratio" = "Фінальне Cпіввідношення";
+
+/* History of the adjustments */
+"Adjustments" = "Коригування";
+
+/* History of the adjustments */
+"Insulin" = "Інсулін";
+
+/* ---------------------------------------------------------------------------------------------------------------
   Infotexts from openaps.docs and androidaps.docs
   iAPS
 */
@@ -1870,7 +3231,7 @@ Enact a temp Basal or a temp target */
 "Remaining Carbs Cap" = "Поглинання Вуглеводів, що залишилися";
 
 /* "Remaining Carbs Cap" */
-"This is the amount of the maximum number of carbs we’ll assume will absorb over 4h if we don’t yet see carb absorption." = "Це значення максимальної кількості вуглеводів, яке імовірно буде поглинено через 4 години, якщо алгоритм не побачить поглинання вуглеводів.";
+"This is the amount of the maximum number of carbs we’ll assume will absorb over 4h if we don’t yet see carb absorption. Maximum 90" = "Це максимальна кількість вуглеводів, яка, як ми припускаємо, засвоїться протягом 4 годин, якщо ми ще не спостерігаємо засвоєння вуглеводів. Максимум 90";
 
 /* Headline ”Max SMB Basal Minutes" */
 "Max SMB Basal Minutes" = "Максимум SMB Базальних Хвилин";
@@ -1923,7 +3284,7 @@ Enact a temp Basal or a temp target */
 // Dynamic ISF + CR Settings:
 /* Headline "Adjust Dynamic ISF constant" */
 
-"Adjust Dynamic ISF constant" = "Налаштувати онстанту Динамічного ISF";
+"Adjust Dynamic ISF constant" = "Налаштувати константу Динамічного ISF";
 
 /* Adjust Dynamic ISF constant */
 "Adjust Dynamic ISF constant" = "Налаштувати константу Динамічного ISF";
@@ -1935,33 +3296,249 @@ Enact a temp Basal or a temp target */
 "Enable Dynamic ISF" = "Включити Динамічний ISF";
 
 /* Enable Dynamic ISF */
-"Calculate a new ISF with every loop cycle. New ISF will be based on current BG, TDD of insulin (past 24 hours or a weighted average) and an Adjustment Factor (default is 1).\n\nDynamic ISF and CR ratios will be limited by your autosens.min/max limits.\n\nDynamic ratio replaces the autosens.ratio: New ISF = Static ISF / Dynamic ratio,\nDynamic ratio = profile.sens * adjustmentFactor * tdd * Math.log(BG/insulinFactor+1) / 1800,\ninsulinFactor = 120 - InsulinPeakTimeInMinutes" = "Вважати новий ISF з кожним циклом петлі. Новий ISF буде залежати від поточного BG, TDD (за останні 24 години або зважене середнє значення) та Adjustment Factor (за замовчуванням - 1). nDynamic ratio замінює autosens.ratio: Новий ISF = Постійний ISF/ Dynamic ratio,\nDynamic ratio = profile.sens*adjustmentFactor * tdd * Math.log(BG/insulinFactor+1) / 1800,\ninsulinFactor = 120 - InsulinPe";
+"Calculate a new Insulin Sensitivity Setting (ISF) upon every loop cycle. The new ISF will be based on your current Glucose, total daily dose of insulin (TDD, past 24 hours of all delivered insulin) and an individual Adjustment Factor (recommendation to start with is 0.5 if using Sigmoid Function and 0.8 if not).\n\nAll of the Dynamic ISF and CR adjustments will be limited by your autosens.min/max limits." = "Обчислюйте новий параметр чутливості до інсуліну (ISF) після кожного циклу Петлі. Новий ISF базуватиметься на вашій поточній глюкозі, загальній добовій дозі інсуліну (TDD, останні 24 години всього доставленого інсуліну) та індивідуальному коригуючому факторі (рекомендація для початку становить 0,5, якщо використовується сигмоподібна функція, і 0,8, якщо ні).\\ n\nУсі налаштування Dynamic ISF і CR будуть обмежені вашими обмеженнями autosens.min/max.";
 
-/* Headline "Enable Dynamic CR" */
+/* Headline Enable Dynamic CR */
 "Enable Dynamic CR" = "Включити Динамічний CR";
 
 /* Enable Dynamic CR */
 "Use Dynamic CR. The dynamic ratio will be used for CR as follows:\n\n When ratio > 1:  dynCR = (newRatio - 1) / 2 + 1.\nWhen ratio < 1: dynCR = CR/dynCR.\n\nDon't use toghether with a high Insulin Fraction (> 2)" = "Використовувати Dynamic CR. Dynamic ratio також впливатиме на CR:\n\n Коли ratio > 1: dynCR = (newRatio - 1) / 2 + 1.\nКоли ratio <1: dynCR = CR/dynCR.\n\nНе використовуйте спільно з високим Insulin Fraction (> 2)";
 
+/* Enable Dyn ISF */
+"Activate Dynamic Sensitivity (ISF)" = "Активація динамічної чутливості (ISF)";
+
+/* Enable Dyn CR */
+"Activate Dynamic Carb Ratio (CR)" = "Активація динамічного співвідношення вуглеводів (CR)";
+
 /* Headline "Adjust Dynamic ISF constant" */
-"Adjust Dynamic ISF constant" = "Налаштувати онстанту Динамічного ISF";
+"Adjust Dynamic ISF constant" = "Налаштувати константу Динамічного ISF";
 
 /* Adjust Dynamic ISF constant */
-"Adjust Dynamic ratios by a constant. Default is 0.5. The higher the value, the larger the correction of your ISF will be for a high or a low BG. Maximum correction is determined by the Autosens min/max settings. For Sigmoid function an adjustment factor of 0.4 - 0.5 is recommended to begin with. For the logaritmic formula there is less consensus, but starting with 0.5 - 0.8 is more appropiate for most users" = "Налаштуйте динамічні коефіцієнти за константою. За замовчуванням 0,5. Чим вище значення, тим більшою буде корекція вашого ISF для високого або низького рівня ГК. Максимальна корекція визначається параметрами min/max Автосенс. Для сигмоподібної функції спочатку рекомендується коригуючий коефіцієнт 0,4 - 0,5. Для логарифмічної формули threre є менш узгодженим, але починати з 0,5 - 0,8 є більш прийнятним для більшості користувачів";
+"Individual adjustment of the computed dynamic ratios. Default is 0.5. The higher the value, the larger the correction of your ISF/CR will be for a high or a low blood glucose. Maximum/minumum correction is determined by the Autosens min/max settings.\n\nFor Sigmoid function an adjustment factor of 0.4 - 0.5 is recommended to begin with.\n\nFor the logaritmic formula there is less consensus, but starting around 0.8 is probably appropiate for most adult users. For younger users it's recommended to start even lower when using logaritmic formula, to avoid overly aggressive treatment." = "Індивідуальне налаштування розрахованих динамічних коефіцієнтів. За замовчуванням 0,5. Чим вище значення, тим більшою буде корекція вашого ISF/CR для високого або низького рівня глюкози в крові. Максимальна/мінімальна корекція визначається мінімальними/максимальними налаштуваннями Autosens.\n\nДля сигмоїдної функції спочатку рекомендується коригувальний коефіцієнт 0,4–0,5.\n\nДля логаритмічної формули три є менш узгодженими, але починаючи приблизно з 0,8 ймовірно підходить для більшості дорослих користувачів. Для молодших користувачів рекомендується починати ще нижче при використанні логарифмічної формули, щоб уникнути занадто агресивного лікування.";
 
-
-/* Headline "Use Sigmoid Function" */
+/* Headline Use Sigmoid Function */
 "Use Sigmoid Function" = "Використовувати Сігмоїдну Функцію";
+
+/* Which dyn ISF function to use */
+"Formula" = "Формула";
+
+/* Extra Safety Features when using dyn ISF */
+"Safety" = "Загальна безпека";
 
 /* Use Sigmoid Function */
 "Use a sigmoid function for ISF (and for CR, when enabled), instead of the default Logarithmic formula. Requires the Dynamic ISF setting to be enabled in settings\n\nThe Adjustment setting adjusts the slope of the curve (Y: Dynamic ratio, X: Blood Glucose). A lower value ==> less steep == less aggressive.\n\nThe autosens.min/max settings determines both the max/min limits for the dynamic ratio AND how much the dynamic ratio is adjusted. If AF is the slope of the curve, the autosens.min/max is the height of the graph, the Y-interval, where Y: dynamic ratio. The curve will always have a sigmoid shape, no matter which autosens.min/max settings are used, meaning these settings have big consequences for the outcome of the computed dynamic ISF. Please be careful setting a too high autosens.max value. With a proper profile ISF setting, you will probably never need it to be higher than 1.5\n\nAn Autosens.max limit > 1.5 is not advisable when using the sigmoid function." = "Використовуйте сигмоїдну функцію для ISF (та для CR, якщо ввімкнено), замість стандартної логарифмічної формули. У налаштуваннях потрібно ввімкнути параметр Dynamic ISF\n\nПараметр Adjustment регулює нахил кривої (Y: динамічне співвідношення, X: рівень глюкози в крові). Менше значення ==> менш крутий == менш агресивний.\n\nПараметри autosens.min/max визначають максимальні/мінімальні межі для динамічного коефіцієнта І наскільки динамічне співвідношення регулюється. Якщо AF – це нахил кривої, autosens.min/max – це висота графіка, Y-інтервал, де Y: динамічне співвідношення. Крива завжди матиме сигмоподібну форму, незалежно від того, які налаштування autosens.min/max використовуються, тобто ці налаштування мають великі наслідки для результату обчисленої динамічної ISF. Будьте обережні, встановлюючи занадто високе значення autosens.max. З правильним налаштуванням ISF профілю вам, ймовірно, ніколи не знадобиться, щоб воно було вищим за 1,5\n\nОбмеження Autosens.max > 1,5 не рекомендується під час використання сигмоїдної функції.";
 
+/* Headline Threshold Setting */
+"Threshold Setting" = "Порогове значення";
 
-/* Headline "Threshold Setting" */
-"Threshold Setting (mg/dl)" = "Порогове Значення (мг/дл)";
+/* Dynamic ISF Setting Title */
+"Minimum Threshold Setting" = "Налаштування Мінімального Порогу";
 
-/* Threshold Setting */
-"The default threshold in FAX depends on your current minimum BG target, as follows:\n\nIf your minimum BG target = 90 mg/dl -> threshold = 65 mg/dl,\n\nif minimum BG target = 100 mg/dl -> threshold = 70 mg/dl,\n\nminimum BG target = 110 mg/dl -> threshold = 75 mg/dl,\n\nand if minimum BG target = 130 mg/dl  -> threshold = 85 mg/dl.\n\nThis setting allows you to change the default to a higher threshold for looping with dynISF. Valid values are 65 mg/dl<= Threshold Setting <= 120 mg/dl." = "Поріг, мг/дл, у FAX за замовчуванням залежить від Вашої поточної мінімальної мети BG, таким чином:\n\nЯкщо мінімальна мета BG = 5 ммоль/л -> поріг = 3,6 ммоль/л,\n\n мінімальна мета BG = 5.6 ммоль/л -> поріг = 3,9 ммоль/л, мінімальна мета BG = 6.1 ммоль/л -> поріг = 4,2 ммоль/л, якщо мінімальна мета BG = 7.2 ммоль/л -> поріг = 4,7 ммоль/л.\n\nЦе налаштування дозволяє збільшити рівень порога для більш безпечної роботи з dynISF. Валідним буде значення 65 мг/дл = 3,6 ммоль/л <= Threshold Setting <= 120 мг/дл = 6,7 ммоль/л.";
+/* Minimum Threshold Setting, Part 1 */
+"This setting lets you choose a level below which no insulin will be given.\n\nThe threshold is using the largest amount of your threshold setting and the computed threshold:\n\nTarget Glucose - (Target Glucose - 40) / 2\n, here using mg/dl as glucose unit.\n\nFor example, if your Target Glucose is " = "Цей параметр дає змогу вибрати рівень, нижче якого інсулін не вводитиметься.\n\nПорогове значення використовує найбільшу кількість вашого порогового налаштування та обчисленого порогу:\n\nЦільовий рівень глюкози - (Цільовий рівень глюкози - 40) / 2\n , тут використовується мг/дл як одиниця глюкози.\n\nНаприклад, якщо ваш цільовий рівень глюкози";
+
+/* Minimum Threshold Setting, Part 2 */
+"the threshold will be " = "поріг буде";
+
+/* Minimum Threshold Setting, Part 3 */
+"unless your threshold setting is set higher:" = "якщо ваше порогове значення не встановлено вище:";
+
+/* Threshold Table Columns Title */
+"Setting" = "Налаштування";
+
+/* Threshold Table Columns Title */
+"Threshold" = "Поріг";
+
+/* Dynamic settings View */
+"Averages" = "Середній";
+
+/* Dynamic settings View */
+"Average ISF" = "Середній ISF";
+
+/* Dynamic settings View */
+"Average CR" = "Середній CR";
+
+/* Dynamic settings View */
+"Average CSF" = "Середній ISF";
+
+/* Dynamic settings View */
+"ISF: Insulin Sensitivity, CR: Carb Ratio,\nCSF: Carb Sensitivity = ISF/CR" = "ISF: чутливість до інсуліну, CR: співвідношення вуглеводів,\nCSF: чутливість до вуглеводів = ISF/CR";
+
+/* Header */
+"Calculator settings" = "Налаштування калькулятора";
+
+/* Bolus Calculator Setting */
+"Use alternate Bolus Calculator" = "Використати альтернативний болюсний калькулятор";
+
+/* Bolus Calculator Setting */
+"Use Bolus Calculator" = "Використовуйте Калькулятор Болюсу";
+
+/* Bolus Calculator Setting */
+"Depending on your settings the Swift bolus calculator is using data from the OpenAPS glucose predictions and/or from IOB, COB, glucose trend, current gluccose and target glucose. At the end of the calculation a custom factor is applied (default 0.8).\n\nYou can also have the option in your bolus calculator to apply another (!) customizable factor at the end of the calculation which could be useful for fatty meals, e.g Pizza (default 0.7).\n\nThe bolus calculator is NOT using the OpenAPS variable \"insulinRequired\", made for SMBs." = "Залежно від ваших налаштувань, Swift-калькулятор болюса використовує дані з прогнозів глюкози OpenAPS та/або IOB (інсулін на борту), COB (вуглеводи на борту), тренда глюкози, поточного рівня глюкози та цільового рівня глюкози. В кінці розрахунку застосовується коефіцієнт користувача (за замовчуванням 0.8).\n\nУ вас також є можливість в налаштуваннях болюс-калькулятора застосувати додатковий коефіцієнт, що настроюється в кінці розрахунку. Це може бути корисним для жирної їжі, наприклад, піци (за замовчуванням 0.7).\n\nБолюс-калькулятор НЕ використовує змінну OpenAPS \"insulinRequired\", яка призначена для SMB (супермікроболюсів).";
+
+/* Bolus Calculator Setting */
+"Adjustment" = "Коригування";
+
+/* Bolus Calculator Setting */
+"Use OpenAPS glucose predictions" = "Використовувати передбачення глюкози OpenAPS";
+
+/* Bolus Calculator Setting */
+"Fatty Meals" = "Жирна їжа";
+
+/* Bolus Calculator Setting */
+"Apply factor for fatty meals" = "Застосувати коефіцієнт жирної їжі";
+
+/* Bolus Calculator Footer */
+"The new alternate bolus calculator is another approach to the default bolus calculator in iAPS. If the toggle is on you use this bolus calculator and not the original iAPS calculator. At the end of the calculation a custom factor is applied as it is supposed to be when using smbs (default 0.8).\n\nYou can also add the option in your bolus calculator to apply another (!) customizable factor at the end of the calculation which could be useful for fatty meals, e.g Pizza (default 0.7)." = "Новий альтернативний болюсний калькулятор є іншим підходом до стандартного болюсного калькулятора в iAPS. Якщо перемикач увімкнено, ви використовуєте цей болюсний калькулятор, а не оригінальний калькулятор iAPS. Наприкінці обчислення застосовано спеціальний коефіцієнт, як це має бути під час використання smbs (за замовчуванням 0,8).\n\nВи також можете додати опцію у своєму болюсному калькуляторі, щоб застосувати інший (!) настроюваний коефіцієнт наприкінці обчислення, яке може бути корисним для жирних страв, наприклад, піци (за замовчуванням 0,7).";
+
+/* Bolus Calculator Setting */
+"1. Use the OpenAPS eventual glucose prediction for computing the insulin recommended. This setting will enable the \"old\" calculator. On by default.\n\n2. Use the OpenAPS minPredBG prediction as a complementary safety guard rail, not allowing the glucose prediction to descend below your threshold. This setting can be used together with or without the eventual glucose. On by default" = "1. Використовувати прогноз кінцевого рівня глюкози (eventual glucose) від OpenAPS для розрахунку інсуліну, що рекомендується. Цей параметр активує старий калькулятор. Увімкнено за замовчуванням.\n\n2. Використовувати прогноз minPredBG від OpenAPS як додатковий захист, щоб не допустити зниження прогнозованого рівня глюкози нижче вашого порогового значення. Цей параметр можна використовувати як разом із прогнозом eventual glucose, так і без нього. Увімкнено за замовчуванням.";
+
+/* Settings Section */
+"Extra Features" = "Додаткові функції";
+
+/* Header */
+"UI/UX Settings" = "Налаштування UI/UX";
+
+/* UI/UX option */
+"Display Predictions" = "Показати передбачення";
+
+/* UI/UX option */
+"Smaller iPhone Screens" = "Менші екрани iPhone";
+
+/* UI/UX option */
+"Display and allow Fat and Protein entries" = "Відобразити та дозволити записи жиру та білка";
+
+/* UI/UX option */
+"Add Meal View settings " = "Додайте налаштування перегляду їжі";
+
+/* UI/UX option */
+"Display Temp Targets Button" = "Показувати кнопку тимчасові цілі";
+
+/* UI/UX option */
+"Display Profile Override Button" = "Показувати кнопку Перевизначення профілю";
+
+/* UI/UX option */
+"Display Meal Button" = "Кнопка відображення страв";
+
+/* UI/UX option */
+"Home View Button Panel " = "Панель кнопок домашнього перегляду";
+
+/* UI/UX title */
+"Home Chart settings " = "Налаштування домашньої діаграми";
+
+/* UI/UX title */
+"Statistics settings " = "Налаштування статистики ";
+
+/* UI/UX title */
+"Override HbA1c Unit" = "Замінити одиницю HbA1c";
+
+/* UI/UX option */
+"In case you're using both profiles and temp targets" = "Якщо ви використовуєте профілі та тимчасові цілі";
+
+/* UI/UX option */
+"Always Color Glucose Value (green, yellow etc)" = "Завжди кольорове значення глюкози (зелений, жовтий тощо)";
+
+/* UI/UX option */
+"Header settings" = "Налаштування заголовка";
+/* UI/UX option */
+"Normally glucose is colored red only when over or under your notification limits for high/low" = "Зазвичай рівень глюкози забарвлюється в червоний колір лише тоді, коли рівень сповіщень перевищує або перебуває нижче для високого/низького рівня";
+
+/* UI/UX option */
+"Horizontal Scroll View Visible hours" = "Горизонтальна прокрутка Видимі години";
+
+/* UI/UX option */
+"Display Time Interval Setting Button" = "Відображення Кнопки Налаштування Інтервалу Часу";
+
+/* UI/UX option */
+"Never display the small glucose chart when scrolling" = "Ніколи не відображайте маленьку діаграму рівня глюкози під час прокручування";
+
+/* UI/UX option */
+"Disable Hypo Treatments" = "Вимкнути гіпотерапію";
+
+/* UI/UX option */
+"Display Glucose Delta" = "Відображати дельту Глюкози";
+
+/* UI/UX option */
+"Display Sensor Age" = "Показувати вік Сенсору";
+
+/* UI/UX option */
+"Display Sensor Time Remaining" = "Час Сенсора, що залишився ";
+
+/* UI/UX option */
+"Hide Concentration Badge" = "Сховати значок Концентрації";
+
+/* UI/UX option */
+"Use insulin bars" = "Відображати інсулін вертикально";
+
+/* UI/UX option */
+"Use carb bars" = "Використовуйте вуглеводні батончики";
+
+/* UI/UX option */
+"Hide the bolus amount strings when amount is under" = "Приховати рядки об'єм болюса, коли об'єм менший";
+
+/* UI/UX option */
+"Display carb equivalents" = "Показати еквіваленти вуглеводів";
+
+/* UI/UX option */
+"Display carb equivalent amount" = "Показати еквівалентну кількість вуглеводів";
+
+/* UI/UX option */
+"Display Ratio and a History View button" = "Відображати Співвідношення та Кнопку перегляду історії";
+
+/* UI/UX option */
+"Home View Ratio Button" = "Кнопка співвідношення сторін головної сторінки";
+
+/* UI/UX option */
+"Light" = "Світлий";
+
+/* UI/UX option */
+"Dark" = "Темна";
+
+/* UI/UX option */
+"Auto" = "Авто";
+
+/* UI/UX option */
+"Color Scheme" = "Кольорова Схема";
+
+/* UI/UX option */
+"Light / Dark Mode" = "Світло/Темний Режим";
+
+/* Debug option */
+"Neglect Carbohydrates in oref0" = "Не враховуйте вуглеводи в oref0";
+
+/* Debug option */
+"Hide Predictions" = "Hide Predictions";
+
+/* Setting title */
+"Bolus Calculator" = "Калькулятор Болюса";
+
+/* Setting title */
+"Dynamic ISF" = "Динамічний ISF";
+
+/* Notification option */
+"Live Activity" = "Дії наживо";
+
+/* Show Live Activity */
+"Show Live Activity" = "Відображати Ефір Активності";
+
+/* Display Chart */
+"Display Chart" = "Відобразити Графік";
+
+/* Show Predictions */
+"Show Predictions" = "Відображати Прогнози";
+
+/* Notification option */
+"Live activity displays blood glucose live on the lock screen and on the dynamic island (if available)" = "Дії наживо відображає рівень глюкози в крові в прямому ефірі на екрані блокування та на динамічному острові (якщо доступний)";
+
+/* Notification option */
+"Show Live activity" = "Показати дії наживо";
+
+/* Live Activity Footer */
+"Live activity displays blood glucose live on the lock screen and on the dynamic island (if available)" = "Дії наживо відображає рівень глюкози в крові в прямому ефірі на екрані блокування та на динамічному острові (якщо доступний)";
+
+/* Live Activity Footer when off */
+"Live activities are turned OFF in system settings. To enable live activities, go to Settings app -> iAPS -> Turn live Activities ON.\n\n" = "Активність у реальному часі вимкнено в налаштуваннях системи. Щоб увімкнути дії в реальному часі, перейдіть у додаток Налаштування -> iAPS -> УВІМКНУТИ дії в реальному часі.\n\n";
 
 /* Headline "Weighted Average of TDD. Weight of past 24 hours:" */
 "Weighted Average of TDD. Weight of past 24 hours:" = "Виважене Середнє Значення TDD. Вага останніх 24 годин:";
@@ -1981,10 +3558,10 @@ Enact a temp Basal or a temp target */
 /* Max Delta-BG Threshold SMB */
 "Defaults to 0.2 (20%). Maximum positive percentual change of BG level to use SMB, above that will disable SMB. Hardcoded cap of 40%. For UAM fully-closed-loop 30% is advisable. Observe in log and popup (maxDelta 27 > 20% of BG 100 - disabling SMB!)." = "За замовчуванням 0.2 (20%). Максимальна позитивна зміна відсоткового рівня глюкози в крові для спрацьовування SMB, при перевищенні цього порога - відбудеться відключення SMB та перехід в керування лише базою. Запрограмована межа – 40%. Для повністю закритої петлі UAM рекомендується 30%. Результат можна спостерігати в журналі роботи та спливаючому вікні статусу петлі (maxDelta 27 > 20% of BG 100 - disabling SMB!).";
 
-/* Headline "... When Blood Glucose Is Over (mg/dl):" */
-"... When Blood Glucose Is Over (mg/dl):" = "... Коли Рівень Глюкози вищий (мг/дл):";
+/* Headline "... When Blood Glucose Is Above:" */
+"... When Blood Glucose Is Above:" = "... Коли рівень глюкози в крові вище:";
 
-/* ... When Blood Glucose Is Over (mg/dl): */
+/* ... When Blood Glucose Is Above: */
 "Set the value enableSMB_high_bg will compare against to enable SMB. If BG > than this value, SMBs should enable." = "Налаштуйте рівень для опції \"Увімкнути SMB за високого BG\". Якщо рівень BG вищий за дане значення, SMB будуть включені.";
 
 /* Headline "Enable SMB With High BG" */
@@ -2001,3 +3578,108 @@ Enact a temp Basal or a temp target */
 
 /* Headline "Adjustment Factor" */
 "Adjustment Factor" = "Коефіцієнт Регулювання";
+
+/* Apple Watch Overrides */
+"Overrides" = "Перевизначити";
+
+/* Apple Watch Overrides */
+"Cancel Override" = "Скасувати перевизначення";
+
+/* Headline "To enable settings, go to the App Config section in iOS Settings App" */
+"To enable settings, go to the App Config section in iOS Settings App" = "Щоб увімкнути налаштування, перейдіть до розділу Програми в Налаштуваннях iPhone";
+
+/* Section header in CGM view */
+"Active CGM" = "Активний CGM";
+
+/* pump name label, when pump is a cgm "Pump/CGM" */
+"Pump/CGM" = "Помпа/CGM";
+
+/* Button "Stop using the pump as CGM" */
+"Stop using the pump as CGM" = "Не використовувати помпу як CGM";
+
+/* Section header in CGM view */
+"Shared App Group Source" = "Джерело спільної групи програм";
+
+/* prefix for the shared app group application */
+"Reading from" = "Читання з";
+
+/* button to disconnect from the shared app group "Disconnect" */
+"Disconnect" = "Роз'єднати";
+
+
+/* description for Shared App Group Source section */
+"Read BG from an external CGM app using a shared app group." = "Зчитуйте показники BG із зовнішнього застосунку CGM за допомогою спільної групи застосунків.";
+
+
+/* prefix before the app name on the button to start reading from shared app group */
+"Read from " = "Читати з";
+
+/* description for the backfill section in Nightscout settings screen */
+"Fetches old glucose readings from Nightscout" = "Отримує старі показники глюкози з Nightscout";
+
+/* header and button label for the 'upload old glucose' action in Nightscout settings screen */
+"Upload glucose" = "Завантажити глюкозу";
+
+/* description for the 'upload old glucose' section in Nightscout settings screen */
+"Uploads old glucose readings to Nightscout" = "Завантажує старі показники глюкози до Nightscout";
+
+/* message when uploads are enabled, but glucose uploads are disabled, in Nightscout settings screen */
+"Glucose upload disabled in CGM settings" = "Завантаження глюкози вимкнено в налаштуваннях CGM";
+
+/* header for the CGM list in CGM settings screen */
+"Connect to CGM" = "Підключення до CGM";
+
+
+/* message displayed when the pump is configured to be the CGM as well (enlite), in CGM settings screen */
+"Pump+CGM" = "Помпа+CGM";
+
+/* label for the button to remove the CGM when the pump is configured to be the CGM as well (enlite), in CGM settings screen */
+"Stop using the pump as CGM" = "Не використовувати помпу як CGM";
+
+/* hint under the CGM list in CGM settings screen */
+"To receive reading from xDrip4iOS, Glucose Direct or another compatible app, select Shared App Group CGM." = "Щоб отримувати показники з xDrip4iOS, Glucose Direct або іншої сумісної програми, виберіть «Спільна група програм CGM».";
+
+/* message displayed in pump settings screen when the pump manager reports uncertain delivery */
+"Pump delivery uncertain" = "Невизначена подача помпи";
+
+/* message displayed on home screen when the pump is added but not fully onboarded */
+"Re-connect pump!" = "Знову підключіть Помпу!";
+
+/* 'fetch' toggle label in nightscout settings */
+"Fetch" = "Отримати";
+
+/* 'fetch' section header in nightscout settings */
+"Allow Fetching" = "Дозволити Отримання";
+
+/* 'fetch' scection footer in nightscout settings */
+"iAPS will fetch announcements, carbs and temp targets from Nightscout" = "iAPS отримуватиме оголошення, інформацію про вуглеводи та тимчасові цілі від Nightscout";
+
+/* main chart settings - toggle, controls whether to draw the in-range area backdrop (fill) */
+"In-range area highlight" = "In-range area highlight";
+
+/* main chart settings - toggle, controls whether to show inline BG peaks */
+"Glucose peaks" = "Glucose peaks";
+
+/* main chart settings - toggle, controls whether to show the predictions legend */
+"Predictions legend" = "Predictions legend";
+
+/* main chart settings - toggle, controls whether to draw the secondary chart backdrop (fill) */
+"Secondary chart backdrop" = "Secondary chart backdrop";
+
+/* main chart settings - toggle, controls whether to show insulin activity grid lines */
+"Insulin activity grid lines" = "Insulin activity grid lines";
+
+/* main chart settings - toggle, controls whether to show insulin activity axis labels */
+"Insulin activity labels" = "Insulin activity labels";
+
+/* main chart settings - secondary chart section header */
+"Secondary chart" = "Secondary chart";
+
+/* main chart settings - navigation title and the navigation link label */
+"Main Chart settings" = "Main Chart settings";
+
+/* UI/UX settings - main chart section header */
+"Main Chart" = "Main Chart";
+
+/* main chart settings - toggle, controls whether to show y-axis labels (glucose) */
+"Y-axis labels" = "Y-axis labels";

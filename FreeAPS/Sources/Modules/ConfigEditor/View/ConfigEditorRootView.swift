@@ -5,8 +5,17 @@ extension ConfigEditor {
     struct RootView: BaseView {
         let resolver: Resolver
         let file: String
-        @StateObject var state = StateModel()
+        @StateObject var state: StateModel
         @State private var showShareSheet = false
+
+        init(
+            resolver: Resolver,
+            file: String
+        ) {
+            self.resolver = resolver
+            self.file = file
+            _state = StateObject(wrappedValue: StateModel(resolver: resolver, file: file))
+        }
 
         var body: some View {
             ZStack {
@@ -31,11 +40,7 @@ extension ConfigEditor {
                     .sheet(isPresented: $showShareSheet) {
                         ShareSheet(activityItems: [state.provider.urlFor(file: state.file)!])
                     }
-                    .onAppear {
-                        configureView {
-                            state.file = file
-                        }
-                    }
+                    .dynamicTypeSize(...DynamicTypeSize.xxLarge)
                     .navigationTitle(file)
                     .navigationBarTitleDisplayMode(.inline)
                     .padding()

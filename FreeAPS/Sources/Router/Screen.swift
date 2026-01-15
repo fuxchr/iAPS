@@ -1,3 +1,4 @@
+import Combine
 import SwiftUI
 import Swinject
 
@@ -9,20 +10,19 @@ enum Screen: Identifiable, Hashable {
     case nighscoutConfig
     case pumpConfig
     case pumpSettingsEditor
-    case basalProfileEditor
+    case basalProfileEditor(saveNewConcentration: Bool)
     case isfEditor
     case crEditor
     case targetsEditor
     case preferencesEditor
-    case addCarbs
+    case addCarbs(editMode: Bool, override: Bool)
     case addTempTarget
-    case bolus(waitForSuggestion: Bool)
+    case bolus(waitForSuggestion: Bool, fetch: Bool)
     case manualTempBasal
     case autotuneConfig
     case dataTable
     case cgm
     case healthkit
-    case libreConfig
     case calibrations
     case notificationsConfig
     case fpuConfig
@@ -32,7 +32,12 @@ enum Screen: Identifiable, Hashable {
     case statistics
     case watch
     case statisticsConfig
-
+    case bolusCalculatorConfig
+    case dynamicISF
+    case calendar
+    case contactTrick
+    case sharing
+    case autoISF
     var id: Int { String(reflecting: self).hashValue }
 }
 
@@ -53,8 +58,8 @@ extension Screen {
             PumpConfig.RootView(resolver: resolver)
         case .pumpSettingsEditor:
             PumpSettingsEditor.RootView(resolver: resolver)
-        case .basalProfileEditor:
-            BasalProfileEditor.RootView(resolver: resolver)
+        case let .basalProfileEditor(saveNewConcentration):
+            BasalProfileEditor.RootView(resolver: resolver, saveNewConcentration: saveNewConcentration)
         case .isfEditor:
             ISFEditor.RootView(resolver: resolver)
         case .crEditor:
@@ -63,12 +68,12 @@ extension Screen {
             TargetsEditor.RootView(resolver: resolver)
         case .preferencesEditor:
             PreferencesEditor.RootView(resolver: resolver)
-        case .addCarbs:
-            AddCarbs.RootView(resolver: resolver)
+        case let .addCarbs(editMode, override):
+            AddCarbs.RootView(resolver: resolver, editMode: editMode, override: override)
         case .addTempTarget:
             AddTempTarget.RootView(resolver: resolver)
-        case let .bolus(waitForSuggestion):
-            Bolus.RootView(resolver: resolver, waitForSuggestion: waitForSuggestion)
+        case let .bolus(waitForSuggestion, fetch):
+            Bolus.RootView(resolver: resolver, waitForSuggestion: waitForSuggestion, fetch: fetch)
         case .manualTempBasal:
             ManualTempBasal.RootView(resolver: resolver)
         case .autotuneConfig:
@@ -79,8 +84,6 @@ extension Screen {
             CGM.RootView(resolver: resolver)
         case .healthkit:
             AppleHealthKit.RootView(resolver: resolver)
-        case .libreConfig:
-            LibreConfig.RootView(resolver: resolver)
         case .calibrations:
             Calibrations.RootView(resolver: resolver)
         case .notificationsConfig:
@@ -98,7 +101,19 @@ extension Screen {
         case .statistics:
             Stat.RootView(resolver: resolver)
         case .statisticsConfig:
-            StatConfig.RootView(resolver: resolver)
+            UIUX.RootView(resolver: resolver)
+        case .bolusCalculatorConfig:
+            BolusCalculatorConfig.RootView(resolver: resolver)
+        case .dynamicISF:
+            Dynamic.RootView(resolver: resolver)
+        case .calendar:
+            CalendarShare.RootView(resolver: resolver)
+        case .contactTrick:
+            ContactTrick.RootView(resolver: resolver)
+        case .sharing:
+            Sharing.RootView(resolver: resolver)
+        case .autoISF:
+            AutoISF.RootView(resolver: resolver)
         }
     }
 
